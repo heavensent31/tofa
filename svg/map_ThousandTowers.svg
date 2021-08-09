@@ -431,9 +431,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="2.0152727"
-     inkscape:cy="256.12026"
+     inkscape:zoom="3.959798"
+     inkscape:cx="245.33327"
+     inkscape:cy="541.18567"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -1330,5 +1330,22 @@
        cx="57.243805"
        cy="113.53816"
        r="1.0690781" />
+    <circle
+       style="opacity:1;fill:#ff0000;stroke:#000000;stroke-width:0.26458332;stroke-opacity:1"
+       id="path4623-6-6"
+       cx="-13.048082"
+       cy="83.403519"
+       r="1.0690781" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.56954956px;line-height:69.69999671%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.06423874"
+       x="-13.858994"
+       y="86.460884"
+       id="text4627-1-7"><tspan
+         sodipodi:role="line"
+         x="-13.858994"
+         y="86.460884"
+         style="font-size:1.71303308px;line-height:69.69999671%;text-align:center;text-anchor:middle;stroke-width:0.06423874"
+         id="tspan5494-3">Лазарка</tspan></text>
   </g>
 </svg>
