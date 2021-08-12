@@ -14,7 +14,7 @@
    viewBox="0 0 218.79747 215.32298"
    version="1.1"
    id="svg32"
-   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="map_ThousandTowers.svg">
   <defs
      id="defs26">
@@ -431,17 +431,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.959798"
-     inkscape:cx="245.33327"
-     inkscape:cy="541.18567"
+     inkscape:zoom="1.4"
+     inkscape:cx="289.39288"
+     inkscape:cy="444.18544"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      objecttolerance="1"
      gridtolerance="1"
      guidetolerance="1"
-     inkscape:window-width="1920"
-     inkscape:window-height="1015"
+     inkscape:window-width="1280"
+     inkscape:window-height="965"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -1347,5 +1347,21 @@
          y="86.460884"
          style="font-size:1.71303308px;line-height:69.69999671%;text-align:center;text-anchor:middle;stroke-width:0.06423874"
          id="tspan5494-3">Лазарка</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.33598232px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#6c5d53;fill-opacity:1;stroke:none;stroke-width:0.30839959"
+       x="-11.613408"
+       y="101.43066"
+       id="text4627-4-35"><tspan
+         sodipodi:role="line"
+         id="tspan4625-5-62"
+         x="-11.613408"
+         y="101.43066"
+         style="font-size:4.93888903px;fill:#6c5d53;stroke-width:0.30839959">Герда Викка </tspan><tspan
+         sodipodi:role="line"
+         x="-11.613408"
+         y="116.85064"
+         style="font-size:4.93888903px;fill:#6c5d53;stroke-width:0.30839959"
+         id="tspan1218">(Волчьи щиты)</tspan></text>
   </g>
 </svg>
