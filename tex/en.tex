@@ -4,82 +4,9 @@
 \setotherlanguage{russian}
 \defaultfontfeatures{Ligatures=TeX,Mapping=tex-text}
 
-\setmainfont{Linux Libertine}
-%\setmainfont{Adobe Caslon Pro}
-
-\usepackage{xltxtra}
-\usepackage{microtype}
-
 \usepackage{xcolor}
-\definecolor{darkblue}{HTML}{003153}
 \definecolor{lightgray}{HTML}{bbbbbb}
+\color{lightgray}
 \newcommand{\ml}[3]{\textcolor{black}{#3}}
 
-\color{lightgray}
-
-\usepackage{graphicx}
-\usepackage {textcomp}
-\usepackage[twoside,left=2.5cm,right=3cm,top=3cm,bottom=4cm,bindingoffset=0cm]{geometry}
-\usepackage{epigraph}
-\epigraphwidth=8cm
-\usepackage{soul, xspace}
-\xspaceaddexceptions{ < ) }
-\newcommand{\ldotst}{\so{...}\xspace}
-\newcommand{\ldotstt}{\so{....}\xspace}
-\newcommand{\ldotsq}{\so{...?}\xspace}
-\newcommand{\ldotse}{\so{...!}\xspace}
-\newcommand{\razd}{~\\{\centering\Large\bfseries$\ast \ast \ast$\par}~\\}
-\newcommand{\spacing}{\textcolor{red}{\textbf{(space)}}}
-\newcommand{\authornote}{\emph{--- Author.}}
-
-\usepackage{etoolbox}
-\AtBeginEnvironment{quote}{\itshape}
-\makeatletter
-\newlength\epitextskip
-\pretocmd{\@epitext}{\em}{}{}
-\apptocmd{\@epitext}{\em}{}{}
-\patchcmd{\epigraph}{\@epitext{#1}\\}{\@epitext{#1}\\[\epitextskip]}{}{}
-\makeatother
-
-\usepackage{amsmath}
-\usepackage{amssymb}
-\usepackage{amsfonts}
-
-\usepackage{hyperref}
-\hypersetup{colorlinks=true, linkcolor=darkblue, citecolor=darkblue, filecolor=darkblue, urlcolor=darkblue}
-
-\usepackage{fancyhdr}
-\pagestyle{fancy}
-\fancyhead[LE,RO]{\thepage}
-\fancyhead[LO]{{\small
-\ml{$0$}
-{ДАЛЕКИЕ РЕЧИ}
-{\textsc{Talks of Faraway}}
-}}
-\fancyhead[RE]{{\small
-\ml{$0$}
-{ЭМИЛЬ ВЕСНА}
-{\textsc{Emil Viesn\'{a}}}
-}} 
-\fancyfoot{}
-\fancypagestyle{plain}
-{
-\fancyhead{}
-\renewcommand{\headrulewidth}{0mm}
-\fancyfoot{}
-}
-\fancypagestyle{requisit}
-{
-\fancyhead{}
-\renewcommand{\headrulewidth}{0mm}
-}
-
-\begin{document}
-
 \input{full_text.tex}
-
-\part{Temporary storage}
-
-\input{tempcomp.tex}
-
-\end{document}
