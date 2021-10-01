@@ -14,7 +14,7 @@
    viewBox="0 0 218.79747 215.32298"
    version="1.1"
    id="svg32"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="map_ThousandTowers.svg">
   <defs
      id="defs26">
@@ -431,17 +431,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="289.39288"
-     inkscape:cy="444.18544"
+     inkscape:zoom="2.8"
+     inkscape:cx="395.61959"
+     inkscape:cy="478.44625"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      objecttolerance="1"
      gridtolerance="1"
      guidetolerance="1"
-     inkscape:window-width="1280"
-     inkscape:window-height="965"
+     inkscape:window-width="1920"
+     inkscape:window-height="1015"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -1363,5 +1363,46 @@
          y="116.85064"
          style="font-size:4.93888903px;fill:#6c5d53;stroke-width:0.30839959"
          id="tspan1218">(Волчьи щиты)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.00766134px;line-height:1.25;font-family:sans-serif;letter-spacing:4.08781279px;word-spacing:0px;fill:#0b1728;fill-opacity:1;stroke:none;stroke-width:0.12519154;"
+       x="-52.222694"
+       y="102.10219"
+       id="text4627-4-6-0-5-3"
+       transform="rotate(-40)"><tspan
+         sodipodi:role="line"
+         id="tspan4625-5-1-6-4-6"
+         x="-52.222694"
+         y="102.10219"
+         style="font-size:3.3384409px;letter-spacing:4.08781279px;word-spacing:2.06639624px;fill:#0b1728;stroke-width:0.12519154;"
+         dx="14.27">Заалвир</tspan></text>
+    <path
+       sodipodi:type="star"
+       style="opacity:1;fill:#000000;stroke:none;stroke-width:0.70599997;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1385"
+       sodipodi:sides="5"
+       sodipodi:cx="35.167456"
+       sodipodi:cy="112.17329"
+       sodipodi:r1="1.3363476"
+       sodipodi:r2="0.35138744"
+       sodipodi:arg1="0.64350111"
+       sodipodi:arg2="1.2923607"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 36.236536,112.97509 -0.972499,-0.46395 -0.528781,0.92667 0.140728,-1.06827 -1.04472,-0.21654 1.059473,-0.19628 -0.116891,-1.0605 0.514063,0.94697 0.972477,-0.43888 -0.741765,0.78153 z"
+       inkscape:transform-center-x="0.12163294"
+       inkscape:transform-center-y="-0.0062705184" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.27704084px;line-height:69.69999671%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.03192602"
+       x="35.90567"
+       y="110.28189"
+       id="text4627-1-75"><tspan
+         sodipodi:role="line"
+         x="35.90567"
+         y="110.28189"
+         style="font-size:0.85136056px;line-height:69.69999671%;text-align:center;text-anchor:middle;stroke-width:0.03192602"
+         id="tspan5494-5">Башня Дьявола</tspan></text>
   </g>
 </svg>
