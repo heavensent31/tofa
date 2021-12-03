@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="11.313709"
-     inkscape:cx="968.13869"
-     inkscape:cy="748.34195"
+     inkscape:zoom="0.50000002"
+     inkscape:cx="394.6001"
+     inkscape:cy="385.83204"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -1670,5 +1670,32 @@
          x="661.1568"
          y="541.40723"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.69199288px;line-height:1.25;font-family:SouvenirPSCyr;-inkscape-font-specification:SouvenirPSCyr;stroke-width:0.13839859px">Кхихутр</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:8.03813839px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;opacity:1;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.66984493px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="389.43521"
+       y="561.96399"
+       id="text4333-7-3"><tspan
+         sodipodi:role="line"
+         x="389.43521"
+         y="561.96399"
+         id="tspan4337-3-6"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.02383661px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';text-align:center;text-anchor:middle;fill:#008000;stroke-width:0.66984493px">Кукушкины леса</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;opacity:1;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="370.84714"
+       y="472.62103"
+       id="text4333-0-7"><tspan
+         sodipodi:role="line"
+         id="tspan4335-3-5"
+         x="370.84714"
+         y="472.62103"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.5px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';text-align:center;text-anchor:middle;fill:#008000;stroke-width:1px">Изменчивая</tspan><tspan
+         sodipodi:role="line"
+         x="370.84714"
+         y="481.99603"
+         id="tspan4337-0-3"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.5px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';text-align:center;text-anchor:middle;fill:#008000;stroke-width:1px">дичь</tspan></text>
   </g>
 </svg>
