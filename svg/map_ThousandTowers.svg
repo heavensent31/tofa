@@ -431,9 +431,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8"
-     inkscape:cx="395.61959"
-     inkscape:cy="478.44625"
+     inkscape:zoom="0.7"
+     inkscape:cx="170.94827"
+     inkscape:cy="340.26016"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -1404,5 +1404,21 @@
          y="110.28189"
          style="font-size:0.85136056px;line-height:69.69999671%;text-align:center;text-anchor:middle;stroke-width:0.03192602"
          id="tspan5494-5">Башня Дьявола</tspan></text>
-  </g>
+    <path
+       style="fill:#6c5d53;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -72.099588,75.206172 8.88244,3.96875 6.425596,4.535713 2.834821,-0.188987 3.401786,5.669642 -5.291667,0.18899 -2.267857,1.889879 -15.875,9.449401 -2.267857,-26.836304 z"
+       id="path1352"
+       inkscape:connector-curvature="0" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot1354"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:0;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,-92.712722,20.603657)"><flowRegion
+         id="flowRegion1356"><rect
+           id="rect1358"
+           width="520.34961"
+           height="82.946335"
+           x="373.75644"
+           y="746.13892" /></flowRegion><flowPara
+         id="flowPara1360">Экваториальный кластер</flowPara></flowRoot>  </g>
 </svg>
