@@ -39,3 +39,10 @@
 		Begin:		01.10.2021
 		End:		not yet
 
+6. SNAP:
+
+		Name:		Snake Pit
+		Genre:		Novella
+		Begin:		11.11.2021
+		End:		not yet
+
