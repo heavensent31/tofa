@@ -8,8 +8,8 @@
 
 		Name:		Talks of Faraway
 		Genre:		Science Fiction
-		Begin:		13.08.2012
-		End:		not yet
+![Started: 2012/08/13](https://img.shields.io/date/1344816000?label=started)
+![Finished: not yet](https://img.shields.io/badge/finished-not%20yet-yellow)
 
 2. FFOG:
 
