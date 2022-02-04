@@ -2,12 +2,9 @@
 
 **Author:** Emil Viesná
 
-**License:** CC BY-NC-ND 4.0
+## TOFA
 
-1. TOFA:
-
-		Name:		Talks of Faraway
-		Genre:		Science Fiction
+Talks of Faraway (Science Fiction)
 ![Started: 2012/08/13](https://img.shields.io/date/1344816000?label=started)
 ![Finished: not yet](https://img.shields.io/badge/finished-not%20yet-yellow)
 
