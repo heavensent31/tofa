@@ -10,6 +10,7 @@ Fanfics by Emil Viesná (aka regnveig).
 
 ## TOFA
 
+![Size](https://badge-size.herokuapp.com/regnveig/tofa/master/tex/tofa.tex?style=flat-square)
 ![Started: 2012/08/13](https://img.shields.io/date/1344816000?label=started&style=flat-square)
 ![Finished: not yet](https://img.shields.io/badge/finished-not%20yet-yellow?style=flat-square)
 
