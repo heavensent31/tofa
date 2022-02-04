@@ -2,6 +2,8 @@
 
 ![Lines of code](https://img.shields.io/tokei/lines/github/regnveig/tofa?style=flat-square)
 ![GitHub repo size](https://img.shields.io/github/repo-size/regnveig/tofa?style=flat-square)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/regnveig/tofa?style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/regnveig/tofa?style=flat-square)
 
 **Author:** Emil Viesná
 
