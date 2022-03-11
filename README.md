@@ -82,9 +82,15 @@ Fanfics by Emil Viesná (aka regnveig).
 
 ## BSRK
 
+![Size](https://badge-size.herokuapp.com/regnveig/tofa/master/fanfic/bsrk.tex?style=flat-square)
+![Started: 2022/03/11](https://img.shields.io/date/1646984700?label=started&style=flat-square)
+![Finished: not yet](https://img.shields.io/badge/finished-not%20yet-yellow?style=flat-square)
+
 **Name:** BSRK
 
 **Genre:** Fantasy fan fiction
+
+**Original story:** Berserk by Miura Kentaro
 
 <p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
 <a rel="license"
