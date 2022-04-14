@@ -1,0 +1,1313 @@
+commit b53709e4b9601e9c9d21c03470274bcc83a36bac
+Author: Emil Valeev <regnveig@yandex.ru>
+Date:   Sat Nov 28 14:20:31 2020 +0700
+
+    :)
+
+diff --git a/tex/full_text.tex b/tex/full_text.tex
+index dd3e990..63386d0 100644
+--- a/tex/full_text.tex
++++ b/tex/full_text.tex
+@@ -181,6 +181,17 @@
+ 
+ \section{Свобода}
+ 
++"--*Почему? "--- закричала я ангелам.
++"--- Почему вы ему служите?!
++
++Зверь захохотал.
++
++"--*Они будут служить любому, кто сидит на Небесном престоле.
++Они будут выполнять все его приказы.
++Те, кто хотел служить по совести, уже давно в Преисподней.
++
++"--*Будь ты проклят! "--- заорала я.
++
+ "--*В Уплотнитель её, "--- буркнул Зверь.
+ 
+ Ангелы рывком поставили меня на ноги, вывернув руку.
+
+commit 70c9e3a0e83ff7ccef2febcd43d4de6ca3051909
+Author: Emil Valeev <regnveig@yandex.ru>
+Date:   Sun Sep 6 12:44:47 2020 +0700
+
+    :)
+
+diff --git a/tex/full_text.tex b/tex/full_text.tex
+index 8171901..dd3e990 100644
+--- a/tex/full_text.tex
++++ b/tex/full_text.tex
+@@ -13,23 +13,34 @@
+ Он говорил настолько долго, что я успела отойти от шока, вызванного падением, смириться с собственной смертью, осознать, где я нахожусь, и заскучать.
+ 
+ Я не была праведницей, живущей по священному писанию, я не была йогом, начитывающим мантры в священном экстазе.
+-Я была обычной девчонкой, которая жила как все, радовалась обычным вещам и никому не делала плохого.
++Я была обычной девушкой, которая жила как все, радовалась обычным вещам и никому не делала плохого.
+ Видимо, этого всё-таки хватило на путёвку в Рай.
+ 
+ "--*Неважно, богата ты или бедна, умна или простодушна, "--- говорил херувим.
+ "--- Перед лицом Бога все равны, и врата Рая "--- одни для всех.
++Да, кстати, ты умеешь читать?
++Вообще должна, глаза умные.
++Да?
+ 
+ На этом его речь закончилась.
+ Это было неожиданностью.
+ Несколько минут "--- если здесь вообще есть время "--- я тупо смотрела на то, как херувим вкладывает в ножны меч, шарит по карманам, перебирает бронзовые ключи на огромной связке и один за другим открывает массивные замки.
+ 
++"--*Читать? "--- наконец переспросила я.
++"--- Да, конечно.
++
++"--*Отлично, "--- с облегчением сказал херувим.
++"--- Надоели эти безграмотные, которых мне по долгу службы надо провожать.
++Мрут чаще, в рай попадают чаще "--- агнцы, чтоб их\ldotst
++
+ "--*А что дальше? "--- спросила я.
+ 
+-"--*Дальше следуйте информационным указателям, "--- сухо сказал херувим.
++"--*Дальше следуйте информационным указателям, читать умеете, "--- сухо сказал херувим.
+ "--- Проходите, проходите, не задерживайте очередь\ldotst
+ 
+-Информационный указатель встретил меня сразу же за вратами Рая.
++Информационный указатель встретил меня на развилке сразу же за вратами Рая.
+ Он гласил: <<Мужчины "--- направо, женщины "--- налево>>.
++Третья дорога "--- вернее, тропинка, широкая и утоптанная, но не замощённая и лишённая указателей "--- вела от развилки прямо, куда-то в поля.
+ Именно тогда у меня появились первые подозрения.
+ 
+ \section{Холод}
+
+commit 84e888580a50772ab9ff41b7a1d4dc8701225a66
+Author: Emil Valeev <regnveig@yandex.ru>
+Date:   Tue Jul 7 15:30:58 2020 +0700
+
+    Initial
+
+diff --git a/.gitignore b/.gitignore
+index 859f705..eb6dfe4 100644
+--- a/.gitignore
++++ b/.gitignore
+@@ -1,3 +1,7 @@
++## References, etc.
++
++/res
++
+ ## Core latex/pdflatex auxiliary files:
+ *.aux
+ *.lof
+@@ -19,7 +23,7 @@
+ # these rules might exclude image files for figures etc.
+ # *.ps
+ # *.eps
+-# *.pdf
++*.pdf
+ 
+ ## Generated if empty string is given at "Please type another file name for output:"
+ .pdf
+@@ -40,10 +44,6 @@
+ *.synctex.gz(busy)
+ *.pdfsync
+ 
+-## Build tool directories for auxiliary files
+-# latexrun
+-latex.out/
+-
+ ## Auxiliary and intermediate files from other packages:
+ # algorithms
+ *.alg
+@@ -64,9 +64,6 @@ acs-*.bib
+ # changes
+ *.soc
+ 
+-# comment
+-*.cut
+-
+ # cprotect
+ *.cpt
+ 
+@@ -109,11 +106,6 @@ acs-*.bib
+ *.glo
+ *.gls
+ *.glsdefs
+-*.lzo
+-*.lzs
+-
+-# uncomment this for glossaries-extra (will ignore makeindex's style files!)
+-# *.ist
+ 
+ # gnuplottex
+ *-gnuplottex-*
+@@ -142,13 +134,11 @@ acs-*.bib
+ # listings
+ *.lol
+ 
+-# luatexja-ruby
+-*.ltjruby
+-
+ # makeidx
+ *.idx
+ *.ilg
+ *.ind
++*.ist
+ 
+ # minitoc
+ *.maf
+@@ -198,9 +188,6 @@ sympy-plots-for-*.tex/
+ *.pytxcode
+ pythontex-files-*/
+ 
+-# tcolorbox
+-*.listing
+-
+ # thmtools
+ *.loe
+ 
+@@ -212,25 +199,17 @@ pythontex-files-*/
+ # todonotes
+ *.tdo
+ 
+-# vhistory
+-*.hst
+-*.ver
+-
+ # easy-todo
+ *.lod
+ 
+-# xcolor
+-*.xcp
+-
+ # xmpincl
+ *.xmpi
+ 
+ # xindy
+ *.xdy
+ 
+-# xypic precompiled matrices and outlines
++# xypic precompiled matrices
+ *.xyc
+-*.xyd
+ 
+ # endfloat
+ *.ttt
+@@ -247,21 +226,12 @@ TSWLatexianTemp*
+ # Texpad
+ .texpadtmp
+ 
+-# LyX
+-*.lyx~
+-
+ # Kile
+ *.backup
+ 
+-# gummi
+-.*.swp
+-
+ # KBibTeX
+ *~[0-9]*
+ 
+-# TeXnicCenter
+-*.tps
+-
+ # auto folder when using emacs and auctex
+ ./auto/*
+ *.el
+@@ -272,5 +242,5 @@ TSWLatexianTemp*
+ # standalone packages
+ *.sta
+ 
+-# Makeindex log files
+-*.lpz
++# generated if using elsarticle.cls
++*.spl
+diff --git a/LICENSE b/LICENSE
+new file mode 100644
+index 0000000..4d1dc4f
+--- /dev/null
++++ b/LICENSE
+@@ -0,0 +1,402 @@
++Attribution-NonCommercial-NoDerivatives 4.0 International
++
++=======================================================================
++
++Creative Commons Corporation ("Creative Commons") is not a law firm and
++does not provide legal services or legal advice. Distribution of
++Creative Commons public licenses does not create a lawyer-client or
++other relationship. Creative Commons makes its licenses and related
++information available on an "as-is" basis. Creative Commons gives no
++warranties regarding its licenses, any material licensed under their
++terms and conditions, or any related information. Creative Commons
++disclaims all liability for damages resulting from their use to the
++fullest extent possible.
++
++Using Creative Commons Public Licenses
++
++Creative Commons public licenses provide a standard set of terms and
++conditions that creators and other rights holders may use to share
++original works of authorship and other material subject to copyright
++and certain other rights specified in the public license below. The
++following considerations are for informational purposes only, are not
++exhaustive, and do not form part of our licenses.
++
++     Considerations for licensors: Our public licenses are
++     intended for use by those authorized to give the public
++     permission to use material in ways otherwise restricted by
++     copyright and certain other rights. Our licenses are
++     irrevocable. Licensors should read and understand the terms
++     and conditions of the license they choose before applying it.
++     Licensors should also secure all rights necessary before
++     applying our licenses so that the public can reuse the
++     material as expected. Licensors should clearly mark any
++     material not subject to the license. This includes other CC-
++     licensed material, or material used under an exception or
++     limitation to copyright. More considerations for licensors:
++	wiki.creativecommons.org/Considerations_for_licensors
++
++     Considerations for the public: By using one of our public
++     licenses, a licensor grants the public permission to use the
++     licensed material under specified terms and conditions. If
++     the licensor's permission is not necessary for any reason--for
++     example, because of any applicable exception or limitation to
++     copyright--then that use is not regulated by the license. Our
++     licenses grant only permissions under copyright and certain
++     other rights that a licensor has authority to grant. Use of
++     the licensed material may still be restricted for other
++     reasons, including because others have copyright or other
++     rights in the material. A licensor may make special requests,
++     such as asking that all changes be marked or described.
++     Although not required by our licenses, you are encouraged to
++     respect those requests where reasonable. More considerations
++     for the public: 
++	wiki.creativecommons.org/Considerations_for_licensees
++
++=======================================================================
++
++Creative Commons Attribution-NonCommercial-NoDerivatives 4.0
++International Public License
++
++By exercising the Licensed Rights (defined below), You accept and agree
++to be bound by the terms and conditions of this Creative Commons
++Attribution-NonCommercial-NoDerivatives 4.0 International Public
++License ("Public License"). To the extent this Public License may be
++interpreted as a contract, You are granted the Licensed Rights in
++consideration of Your acceptance of these terms and conditions, and the
++Licensor grants You such rights in consideration of benefits the
++Licensor receives from making the Licensed Material available under
++these terms and conditions.
++
++
++Section 1 -- Definitions.
++
++  a. Adapted Material means material subject to Copyright and Similar
++     Rights that is derived from or based upon the Licensed Material
++     and in which the Licensed Material is translated, altered,
++     arranged, transformed, or otherwise modified in a manner requiring
++     permission under the Copyright and Similar Rights held by the
++     Licensor. For purposes of this Public License, where the Licensed
++     Material is a musical work, performance, or sound recording,
++     Adapted Material is always produced where the Licensed Material is
++     synched in timed relation with a moving image.
++
++  b. Copyright and Similar Rights means copyright and/or similar rights
++     closely related to copyright including, without limitation,
++     performance, broadcast, sound recording, and Sui Generis Database
++     Rights, without regard to how the rights are labeled or
++     categorized. For purposes of this Public License, the rights
++     specified in Section 2(b)(1)-(2) are not Copyright and Similar
++     Rights.
++
++  c. Effective Technological Measures means those measures that, in the
++     absence of proper authority, may not be circumvented under laws
++     fulfilling obligations under Article 11 of the WIPO Copyright
++     Treaty adopted on December 20, 1996, and/or similar international
++     agreements.
++
++  d. Exceptions and Limitations means fair use, fair dealing, and/or
++     any other exception or limitation to Copyright and Similar Rights
++     that applies to Your use of the Licensed Material.
++
++  e. Licensed Material means the artistic or literary work, database,
++     or other material to which the Licensor applied this Public
++     License.
++
++  f. Licensed Rights means the rights granted to You subject to the
++     terms and conditions of this Public License, which are limited to
++     all Copyright and Similar Rights that apply to Your use of the
++     Licensed Material and that the Licensor has authority to license.
++
++  g. Licensor means the individual(s) or entity(ies) granting rights
++     under this Public License.
++
++  h. NonCommercial means not primarily intended for or directed towards
++     commercial advantage or monetary compensation. For purposes of
++     this Public License, the exchange of the Licensed Material for
++     other material subject to Copyright and Similar Rights by digital
++     file-sharing or similar means is NonCommercial provided there is
++     no payment of monetary compensation in connection with the
++     exchange.
++
++  i. Share means to provide material to the public by any means or
++     process that requires permission under the Licensed Rights, such
++     as reproduction, public display, public performance, distribution,
++     dissemination, communication, or importation, and to make material
++     available to the public including in ways that members of the
++     public may access the material from a place and at a time
++     individually chosen by them.
++
++  j. Sui Generis Database Rights means rights other than copyright
++     resulting from Directive 96/9/EC of the European Parliament and of
++     the Council of 11 March 1996 on the legal protection of databases,
++     as amended and/or succeeded, as well as other essentially
++     equivalent rights anywhere in the world.
++
++  k. You means the individual or entity exercising the Licensed Rights
++     under this Public License. Your has a corresponding meaning.
++
++
++Section 2 -- Scope.
++
++  a. License grant.
++
++       1. Subject to the terms and conditions of this Public License,
++          the Licensor hereby grants You a worldwide, royalty-free,
++          non-sublicensable, non-exclusive, irrevocable license to
++          exercise the Licensed Rights in the Licensed Material to:
++
++            a. reproduce and Share the Licensed Material, in whole or
++               in part, for NonCommercial purposes only; and
++
++            b. produce and reproduce, but not Share, Adapted Material
++               for NonCommercial purposes only.
++
++       2. Exceptions and Limitations. For the avoidance of doubt, where
++          Exceptions and Limitations apply to Your use, this Public
++          License does not apply, and You do not need to comply with
++          its terms and conditions.
++
++       3. Term. The term of this Public License is specified in Section
++          6(a).
++
++       4. Media and formats; technical modifications allowed. The
++          Licensor authorizes You to exercise the Licensed Rights in
++          all media and formats whether now known or hereafter created,
++          and to make technical modifications necessary to do so. The
++          Licensor waives and/or agrees not to assert any right or
++          authority to forbid You from making technical modifications
++          necessary to exercise the Licensed Rights, including
++          technical modifications necessary to circumvent Effective
++          Technological Measures. For purposes of this Public License,
++          simply making modifications authorized by this Section 2(a)
++          (4) never produces Adapted Material.
++
++       5. Downstream recipients.
++
++            a. Offer from the Licensor -- Licensed Material. Every
++               recipient of the Licensed Material automatically
++               receives an offer from the Licensor to exercise the
++               Licensed Rights under the terms and conditions of this
++               Public License.
++
++            b. No downstream restrictions. You may not offer or impose
++               any additional or different terms or conditions on, or
++               apply any Effective Technological Measures to, the
++               Licensed Material if doing so restricts exercise of the
++               Licensed Rights by any recipient of the Licensed
++               Material.
++
++       6. No endorsement. Nothing in this Public License constitutes or
++          may be construed as permission to assert or imply that You
++          are, or that Your use of the Licensed Material is, connected
++          with, or sponsored, endorsed, or granted official status by,
++          the Licensor or others designated to receive attribution as
++          provided in Section 3(a)(1)(A)(i).
++
++  b. Other rights.
++
++       1. Moral rights, such as the right of integrity, are not
++          licensed under this Public License, nor are publicity,
++          privacy, and/or other similar personality rights; however, to
++          the extent possible, the Licensor waives and/or agrees not to
++          assert any such rights held by the Licensor to the limited
++          extent necessary to allow You to exercise the Licensed
++          Rights, but not otherwise.
++
++       2. Patent and trademark rights are not licensed under this
++          Public License.
++
++       3. To the extent possible, the Licensor waives any right to
++          collect royalties from You for the exercise of the Licensed
++          Rights, whether directly or through a collecting society
++          under any voluntary or waivable statutory or compulsory
++          licensing scheme. In all other cases the Licensor expressly
++          reserves any right to collect such royalties, including when
++          the Licensed Material is used other than for NonCommercial
++          purposes.
++
++
++Section 3 -- License Conditions.
++
++Your exercise of the Licensed Rights is expressly made subject to the
++following conditions.
++
++  a. Attribution.
++
++       1. If You Share the Licensed Material, You must:
++
++            a. retain the following if it is supplied by the Licensor
++               with the Licensed Material:
++
++                 i. identification of the creator(s) of the Licensed
++                    Material and any others designated to receive
++                    attribution, in any reasonable manner requested by
++                    the Licensor (including by pseudonym if
++                    designated);
++
++                ii. a copyright notice;
++
++               iii. a notice that refers to this Public License;
++
++                iv. a notice that refers to the disclaimer of
++                    warranties;
++
++                 v. a URI or hyperlink to the Licensed Material to the
++                    extent reasonably practicable;
++
++            b. indicate if You modified the Licensed Material and
++               retain an indication of any previous modifications; and
++
++            c. indicate the Licensed Material is licensed under this
++               Public License, and include the text of, or the URI or
++               hyperlink to, this Public License.
++
++          For the avoidance of doubt, You do not have permission under
++          this Public License to Share Adapted Material.
++
++       2. You may satisfy the conditions in Section 3(a)(1) in any
++          reasonable manner based on the medium, means, and context in
++          which You Share the Licensed Material. For example, it may be
++          reasonable to satisfy the conditions by providing a URI or
++          hyperlink to a resource that includes the required
++          information.
++
++       3. If requested by the Licensor, You must remove any of the
++          information required by Section 3(a)(1)(A) to the extent
++          reasonably practicable.
++
++
++Section 4 -- Sui Generis Database Rights.
++
++Where the Licensed Rights include Sui Generis Database Rights that
++apply to Your use of the Licensed Material:
++
++  a. for the avoidance of doubt, Section 2(a)(1) grants You the right
++     to extract, reuse, reproduce, and Share all or a substantial
++     portion of the contents of the database for NonCommercial purposes
++     only and provided You do not Share Adapted Material;
++
++  b. if You include all or a substantial portion of the database
++     contents in a database in which You have Sui Generis Database
++     Rights, then the database in which You have Sui Generis Database
++     Rights (but not its individual contents) is Adapted Material; and
++
++  c. You must comply with the conditions in Section 3(a) if You Share
++     all or a substantial portion of the contents of the database.
++
++For the avoidance of doubt, this Section 4 supplements and does not
++replace Your obligations under this Public License where the Licensed
++Rights include other Copyright and Similar Rights.
++
++
++Section 5 -- Disclaimer of Warranties and Limitation of Liability.
++
++  a. UNLESS OTHERWISE SEPARATELY UNDERTAKEN BY THE LICENSOR, TO THE
++     EXTENT POSSIBLE, THE LICENSOR OFFERS THE LICENSED MATERIAL AS-IS
++     AND AS-AVAILABLE, AND MAKES NO REPRESENTATIONS OR WARRANTIES OF
++     ANY KIND CONCERNING THE LICENSED MATERIAL, WHETHER EXPRESS,
++     IMPLIED, STATUTORY, OR OTHER. THIS INCLUDES, WITHOUT LIMITATION,
++     WARRANTIES OF TITLE, MERCHANTABILITY, FITNESS FOR A PARTICULAR
++     PURPOSE, NON-INFRINGEMENT, ABSENCE OF LATENT OR OTHER DEFECTS,
++     ACCURACY, OR THE PRESENCE OR ABSENCE OF ERRORS, WHETHER OR NOT
++     KNOWN OR DISCOVERABLE. WHERE DISCLAIMERS OF WARRANTIES ARE NOT
++     ALLOWED IN FULL OR IN PART, THIS DISCLAIMER MAY NOT APPLY TO YOU.
++
++  b. TO THE EXTENT POSSIBLE, IN NO EVENT WILL THE LICENSOR BE LIABLE
++     TO YOU ON ANY LEGAL THEORY (INCLUDING, WITHOUT LIMITATION,
++     NEGLIGENCE) OR OTHERWISE FOR ANY DIRECT, SPECIAL, INDIRECT,
++     INCIDENTAL, CONSEQUENTIAL, PUNITIVE, EXEMPLARY, OR OTHER LOSSES,
++     COSTS, EXPENSES, OR DAMAGES ARISING OUT OF THIS PUBLIC LICENSE OR
++     USE OF THE LICENSED MATERIAL, EVEN IF THE LICENSOR HAS BEEN
++     ADVISED OF THE POSSIBILITY OF SUCH LOSSES, COSTS, EXPENSES, OR
++     DAMAGES. WHERE A LIMITATION OF LIABILITY IS NOT ALLOWED IN FULL OR
++     IN PART, THIS LIMITATION MAY NOT APPLY TO YOU.
++
++  c. The disclaimer of warranties and limitation of liability provided
++     above shall be interpreted in a manner that, to the extent
++     possible, most closely approximates an absolute disclaimer and
++     waiver of all liability.
++
++
++Section 6 -- Term and Termination.
++
++  a. This Public License applies for the term of the Copyright and
++     Similar Rights licensed here. However, if You fail to comply with
++     this Public License, then Your rights under this Public License
++     terminate automatically.
++
++  b. Where Your right to use the Licensed Material has terminated under
++     Section 6(a), it reinstates:
++
++       1. automatically as of the date the violation is cured, provided
++          it is cured within 30 days of Your discovery of the
++          violation; or
++
++       2. upon express reinstatement by the Licensor.
++
++     For the avoidance of doubt, this Section 6(b) does not affect any
++     right the Licensor may have to seek remedies for Your violations
++     of this Public License.
++
++  c. For the avoidance of doubt, the Licensor may also offer the
++     Licensed Material under separate terms or conditions or stop
++     distributing the Licensed Material at any time; however, doing so
++     will not terminate this Public License.
++
++  d. Sections 1, 5, 6, 7, and 8 survive termination of this Public
++     License.
++
++
++Section 7 -- Other Terms and Conditions.
++
++  a. The Licensor shall not be bound by any additional or different
++     terms or conditions communicated by You unless expressly agreed.
++
++  b. Any arrangements, understandings, or agreements regarding the
++     Licensed Material not stated herein are separate from and
++     independent of the terms and conditions of this Public License.
++
++
++Section 8 -- Interpretation.
++
++  a. For the avoidance of doubt, this Public License does not, and
++     shall not be interpreted to, reduce, limit, restrict, or impose
++     conditions on any use of the Licensed Material that could lawfully
++     be made without permission under this Public License.
++
++  b. To the extent possible, if any provision of this Public License is
++     deemed unenforceable, it shall be automatically reformed to the
++     minimum extent necessary to make it enforceable. If the provision
++     cannot be reformed, it shall be severed from this Public License
++     without affecting the enforceability of the remaining terms and
++     conditions.
++
++  c. No term or condition of this Public License will be waived and no
++     failure to comply consented to unless expressly agreed to by the
++     Licensor.
++
++  d. Nothing in this Public License constitutes or may be interpreted
++     as a limitation upon, or waiver of, any privileges and immunities
++     that apply to the Licensor or You, including from the legal
++     processes of any jurisdiction or authority.
++
++=======================================================================
++
++Creative Commons is not a party to its public
++licenses. Notwithstanding, Creative Commons may elect to apply one of
++its public licenses to material it publishes and in those instances
++will be considered the “Licensor.” The text of the Creative Commons
++public licenses is dedicated to the public domain under the CC0 Public
++Domain Dedication. Except for the limited purpose of indicating that
++material is shared under a Creative Commons public license or as
++otherwise permitted by the Creative Commons policies published at
++creativecommons.org/policies, Creative Commons does not authorize the
++use of the trademark "Creative Commons" or any other trademark or logo
++of Creative Commons without its prior written consent including,
++without limitation, in connection with any unauthorized modifications
++to any of its public licenses or any other arrangements,
++understandings, or agreements concerning use of licensed material. For
++the avoidance of doubt, this paragraph does not form part of the
++public licenses.
++
++Creative Commons may be contacted at creativecommons.org.
+diff --git a/README.md b/README.md
+index 9281a38..b13a7a3 100644
+--- a/README.md
++++ b/README.md
+@@ -1,2 +1,8 @@
+-# skyc
+-The Skycliff (fantasy)
++# The Skycliff
++        Author:         Emil Helgason
++        Genre:          Fantasy
++
++        Begin:          29.06.2020
++        End:            not yet
++        
++        License:        CC BY-NC-ND 4.0
+diff --git a/tex/full_text.tex b/tex/full_text.tex
+new file mode 100644
+index 0000000..8171901
+--- /dev/null
++++ b/tex/full_text.tex
+@@ -0,0 +1,289 @@
++\author{Эмиль Хельгасон}
++\title{Небесные скалы}
++\date{29.06.2020}
++\maketitle
++
++\tableofcontents
++
++\chapter{Небесные скалы}
++
++\section{Райские врата}
++
++Херувим говорил долго, употребляя изысканные восточные эпитеты и многоступенчатые предложения.
++Он говорил настолько долго, что я успела отойти от шока, вызванного падением, смириться с собственной смертью, осознать, где я нахожусь, и заскучать.
++
++Я не была праведницей, живущей по священному писанию, я не была йогом, начитывающим мантры в священном экстазе.
++Я была обычной девчонкой, которая жила как все, радовалась обычным вещам и никому не делала плохого.
++Видимо, этого всё-таки хватило на путёвку в Рай.
++
++"--*Неважно, богата ты или бедна, умна или простодушна, "--- говорил херувим.
++"--- Перед лицом Бога все равны, и врата Рая "--- одни для всех.
++
++На этом его речь закончилась.
++Это было неожиданностью.
++Несколько минут "--- если здесь вообще есть время "--- я тупо смотрела на то, как херувим вкладывает в ножны меч, шарит по карманам, перебирает бронзовые ключи на огромной связке и один за другим открывает массивные замки.
++
++"--*А что дальше? "--- спросила я.
++
++"--*Дальше следуйте информационным указателям, "--- сухо сказал херувим.
++"--- Проходите, проходите, не задерживайте очередь\ldotst
++
++Информационный указатель встретил меня сразу же за вратами Рая.
++Он гласил: <<Мужчины "--- направо, женщины "--- налево>>.
++Именно тогда у меня появились первые подозрения.
++
++\section{Холод}
++
++Дьявол, как холодно.
++Я не думала, что я буду так мёрзнуть в Раю.
++
++"--*Да чтоб тебя черти в Аду драли, "--- выругалась я в адрес Бога, которого мне так и не довелось увидеть.
++Удивительно, но никто не покарал меня за богохульство.
++Никто вообще не обратил на меня внимания.
++Узкий переулок, в котором я решила провести холодную ночь, был пуст, если не считать нескольких жмущихся друг к другу собак.
++<<Псы попадают в Рай>>.
++Если это правда, то здесь их должны быть сотни миллионов.
++
++Чем дальше я шла по Раю, тем больше он напоминал мегаполис "--- зеркальные небоскрёбы, шлагбаумы, закрытые двери, непонятные вывески.
++Информационным указателям я перестала следовать после шестого.
++Он гласил: <<Высшее образование "--- направо, два и более высших "--- прямо, нет высшего образования "--- налево>>.
++Вместо этого я свернула с дороги и пошла между небоскрёбами.
++
++Когда солнце опустилось за горизонт, я отбросила остатки брезгливости и пошла греться к собакам.
++Я погладила белого самоеда, легла рядом с ним и зарылась промёрзшими пальцами в густую шерсть.
++Прочие псы, не издав ни звука, улеглись прямо на меня, словно разношёрстное меховое одеяло.
++Тяжесть и тепло быстро окутали мою усталую голову, и я погрузилась в сон.
++
++\section{Часть стаи}
++
++Утром первым моим ощущением был голод.
++
++"--*Да какого хрена, я же уже мертва! "--- возмутилась я.
++
++Собаки, с которыми я провела ночь, смотрели на меня.
++Я вдруг поняла, что они тоже голодны.
++Вокруг был лишь пустынный город "--- ни забегаловок, ни помоек.
++Они могли разорвать меня, они могли съесть друг друга, если бы только\ldotst
++
++<<Если бы это было решением проблемы>>, "--- закончил белый самоед.
++
++<<У нас впереди вечность, "--- собаки каким-то образом доносили свои мысли без единого звука.
++"--- Твоего мяса хватит на сутки, но твоего тепла может хватить на века>>.
++
++<<Оставайся с нами, "--- просил самоед.
++"--- Здесь холодные ночи>>.
++
++"--*Это точно Рай? "--- пробормотала я.
++
++<<Не ходи туда, куда велят тебе таблички, "--- говорили собаки.
++"--- Останься с нами>>.
++
++И я осталась.
++
++\section{Привычный маршрут}
++
++Прошло много дней.
++Голод, как ни странно, не усиливался со временем "--- достигнув какой-то точки, он превратился в постоянное фоновое чувство.
++Он был не настолько сильным, чтобы свести с ума, и не отнимал силы.
++Я по-прежнему была способна ходить и спать.
++
++Собаки целыми днями шатались по окрестностям, и я составляла им компанию.
++Вскоре я заметила, что их маршрут повторяется "--- поворот направо, прямо, три поворота налево, ещё два направо.
++Всего собаки преодолевали тысячу сто двадцать пять дорожных развилок за день, возвращаясь на то же место, где и проводили ночь.
++Любые мои предложения изменить маршрут встречали непонимание.
++
++"--*Я не могу ходить по одним и тем же дорогам вечность, "--- заявила я как-то вечером.
++"--- Голод и холод "--- сущие пустяки по сравнению с этой рутиной.
++
++<<Другие дороги опасны>>, "--- сообщили псы.
++
++"--*Вы проверяли? "--- допытывалась я.
++
++<<Мы видели места гораздо хуже.
++Это лучшее место для нас>>.
++
++"--*Тогда почему вы так страдаете? "--- спрашивала я.
++Ответом было молчание.
++
++\section{Глупая смерть}
++
++"--*А ты как сюда попала?
++
++"--*По глупости, "--- коротко ответила я.
++
++"--*А поподробнее?
++
++"--*Десять лет занимаюсь скалолазанием, упала с табуретки и ударилась головой.
++
++"--*Извини, "--- пробормотал он.
++
++"--*А ты?
++
++"--*Рак яичек.
++
++\section{Благодарность для Бога}
++
++Я обернулась к Роме.
++
++"--*Знаешь, ты мог бы мне понравится, будь мы живы, "--- сказала я.
++
++Рома грустно улыбнулся.
++
++"--*Вряд ли.
++
++"--*Ты смелый.
++
++"--*Просто не хочу стать куском мяса, лежащим в Уплотнителе.
++
++"--*Это и есть смелость.
++
++Рома опустил голову.
++
++"--*Я прожил жизнь глупо.
++Я чаще молился, чем говорил женщинам о своих чувствах.
++Даже если бы Рай оказался тем Раем, о котором нам говорили, эта мысль мучила бы меня до конца вечности.
++
++"--*Пойдём со мной.
++Пожалуйста.
++
++Рома покачал головой.
++
++"--*Я буду обузой на этой скале.
++Она твоя.
++
++Я подошла к Роме и поцеловала его в губы.
++Поцелуй был призрачным, словно дуновение ветра;
++губы Ромы на вкус были подобны тёплой воде.
++
++"--*Прощай, Вика.
++Больше не падай.
++И если увидишь Бога "--- передай ему от меня благодарность, по морде, со всей силы.
++
++\section{Первая и последняя попытка}
++
++Я посмотрела вниз.
++Солнце стояло высоко, и я увидела широкие и глубокие расщелины, располосовавшие камень у подножия скалы.
++Стены расщелин были абсолютно гладкие, словно трещины в стекле;
++если я упаду в одну из них, второй попытки у меня не будет.
++
++Я запустила пальцы в мешочек с магнезией и ухватилась за следующий выступ.
++
++\section{Свобода}
++
++"--*В Уплотнитель её, "--- буркнул Зверь.
++
++Ангелы рывком поставили меня на ноги, вывернув руку.
++Но я этого не чувствовала.
++Моё внимание поглотили две вещи, попавшие в поле зрения.
++На поясе ангела висел мой крюк, незакреплённый, с тросом достаточной длины, чтобы сделать размах.
++А на стене в углу зала примостился рычаг, похожий на стоп-кран в метро.
++Над ним была небольшая наклейка с красными буквами, которые гласили:
++
++<<СВОБОДА>>
++
++\dots Я с размаху вогнала крюк ангелу в шею, точно в не прикрытую пластиной доспеха щель.
++Раздался дикий визг, похожий то ли на человеческий крик, то ли на звук сирены скорой помощи.
++В следующий миг я рванулась к рычагу стоп-крана и дёрнула его вниз.
++Ещё миг спустя три ангельских копья, три полоски невообразимо блестящего белого металла намертво пригвоздили меня к каменному паркету зала.
++
++Ослеплённая болью, я ещё успела услышать отчаянный рёв Зверя.
++Зал распадался на куски, превращаясь в водоворот камня, стекла и древесных щепок.
++То же происходило и со скалой.
++Вскоре волна разрушения добралась до нижних уровней Рая.
++Мироздание огласил хор миллионов, миллиардов голосов;
++освобождённые души летели во все стороны, чтобы навсегда исчезнуть в глубинах космоса.
++
++"--*Вика, Вика! "--- голос Ромы звучал откуда-то издалека.
++"--- Дай мне руку, дай мне руку! 
++Я отнесу тебя домой\ldotst
++
++\section{Невидимые цепи}
++
++Первым пришло чувство запертости.
++Меня сковали невидимые цепи, подвесили в пустоте.
++Я пыталась закричать, но не могла даже открыть рот.
++Вскоре до меня дошло, что рот и так открыт;
++из него торчала пластиковая трубка.
++
++\section{Кусочек прежней жизни}
++
++"--*Я никогда больше не смогу лазать?
++
++"--*Улучшение возможно, настолько, чтобы передвигаться на коляске и, возможно, на костылях.
++
++Я закрыла глаза и отвернулась к стене.
++
++"--*Лёша не приходил?
++
++"--*Я ему сказала, что ты в коме, "--- извиняющимся тоном ответила мама.
++Продолжения не требовалось.
++
++"--*Принеси мне мою снарягу, "--- попросила я.
++
++"--*Вика, пожалуйста!
++Врачи\ldotst
++
++"--*Мне всё равно.
++Принеси снарягу мне сюда.
++
++\section{Окно в больнице}
++
++Я сидела у больничного окна, привалившись к холодной, крашенной голубой краской стене.
++Расстояние до окна отняло больше сил, чем скалодром.
++Пользуясь одной рукой и тросами, я подняла себя в сидячее положение, подтянула табуретку, кое-как зафиксировала тело на табуретке и медленно, сантиметр за сантиметром, подтащила табуретку к окну.
++
++"--*Да что ж ты делаешь, тебе постельный режим нужен! "--- всполошилась медсестра.
++
++"--*Я хочу посидеть у окна.
++Да не надо меня отвязывать!
++
++Сестра, безуспешно поколупавшись с узлами и карабинами, устало села на кровать.
++
++"--*Ну и что теперь с тобой делать?
++Как я тебя обратно положу?
++У меня и без тебя работы невпроворот!
++
++"--*Я сама отвяжусь и лягу.
++Просто дайте мне посидеть у окна.
++
++"--*Ты ногу перетянула!
++Холодная нога совсем!
++Синяя!
++
++"--*Это вы мне ногу перетянули, пока пытались меня развязать!
++
++Я не без труда ослабила трос, охватывающий бедро.
++Нога медленно стала приобретать нормальный цвет.
++
++\section{Чай и тортик}
++
++Ещё неделю я провела в больнице, настойчиво пытаясь вернуться к нормальной жизни.
++Я научилась перемещаться по всей палате "--- к окну, к раковине, чтобы почистить зубы и умыться, к креслу-каталке.
++Падала каждый час, и после каждого падения на руках оставались крупные чернильные синяки.
++В конце концов, поглядев на протянутые по палате тросы, лечащий врач велел оставить мне одну каталку.
++Так я начала выбираться в коридор.
++
++Ещё через неделю начала шевелиться нога.
++Всего одна.
++Совсем немного.
++Впервые с момента пробуждения я заплакала.
++
++Больницу я покинула уже на костылях.
++
++"--*Пойдём, Вика, я такси вызвала.
++
++"--*Я хочу пешком.
++
++"--*Дочка, дом далеко!
++
++"--*Пара километров.
++Не хочу в машину.
++
++Мы с мамой останавливались у каждой скамейки и подолгу сидели на ней.
++Я слушала мамину болтовню, слушала стрекотание кузнечиков, слушала шорох травы и листьев берёз "--- и не могла наслушаться.
++
++"--*Я тебе купила твой любимый чай и тортик.
++Ой, а папу нашего вчера повысили, он с работы не вылезал с тех пор, как ты в больницу попала\ldotst
++Сашка тебе тоже подарок приготовила, она такая умница, вот увидишь, тебе точно понравится\ldotst
++
++
+diff --git a/tex/ru.tex b/tex/ru.tex
+new file mode 100644
+index 0000000..f285c3f
+--- /dev/null
++++ b/tex/ru.tex
+@@ -0,0 +1,72 @@
++\documentclass[a4paper,10pt]{book}
++\usepackage{polyglossia} 
++\setdefaultlanguage[babelshorthands=true]{russian}
++\setotherlanguage{english}
++\defaultfontfeatures{Ligatures=TeX,Mapping=tex-text}
++
++\usepackage{amsmath}
++\setmainfont{Linux Libertine}
++
++\usepackage{xltxtra}
++\usepackage{microtype}
++
++\usepackage{xcolor}
++\definecolor{darkblue}{HTML}{003153}
++\usepackage{graphicx}
++\usepackage {textcomp}
++\usepackage[twoside,left=2.5cm,right=3cm,top=3cm,bottom=4cm,bindingoffset=0cm]{geometry}
++\usepackage{epigraph}
++\renewcommand{\epigraphsize}{\footnotesize}
++\epigraphrule=0pt
++\epigraphwidth=8cm
++\usepackage{soul, xspace}
++\xspaceaddexceptions{ < ) }
++\sodef\so{}{.1em}{1em}{.3em plus.05em minus.05em}
++\newcommand{\ldotst}{\so{...}\xspace}
++\newcommand{\ldotsq}{\so{?\hbox{\hspace{-.212em}}..}\xspace}
++\newcommand{\ldotse}{\so{!..}\xspace}
++\newcommand{\razd}{~\\{\centering\Large\bfseries$\ast \ast \ast$\par}~\\}
++\newcommand{\spacing}{\textcolor{red}{\textbf{(разрыв)}}}
++\newcommand{\authornote}{\emph{"--- Прим. авт.}}
++
++\renewcommand{\texttt}[1]{\text}
++
++\usepackage{etoolbox}
++\AtBeginEnvironment{quote}{}
++\makeatletter
++\newlength\episourceskip
++\pretocmd{\@episource}{\em}{}{}
++\apptocmd{\@episource}{\em}{}{}
++\patchcmd{\epigraph}{\@episource{#1}\\}{\@episource{#1}\\[\episourceskip]}{}{}
++\makeatother
++
++\usepackage{hyperref}
++\hypersetup{colorlinks=true, linkcolor=darkblue, citecolor=darkblue, filecolor=darkblue, urlcolor=darkblue}
++
++\usepackage{fancyhdr}
++\pagestyle{fancy}
++\fancyhead[LE,RO]{\thepage}
++\fancyhead[LO]{{\small
++НЕБЕСНЫЕ СКАЛЫ
++}}
++\fancyhead[RE]{{\small
++ЭМИЛЬ ХЕЛЬГАСОН
++}} 
++\fancyfoot{}
++\fancypagestyle{plain}
++{
++\fancyhead{}
++\renewcommand{\headrulewidth}{0mm}
++\fancyfoot{}
++}
++\fancypagestyle{requisit}
++{
++\fancyhead{}
++\renewcommand{\headrulewidth}{0mm}
++}
++
++\begin{document}
++
++\input{full_text.tex}
++
++\end{document}
+
+commit 60911a8c2af92d99f378166529c35b3194cb6694
+Author: Emil Valeev <37911175+regnveig@users.noreply.github.com>
+Date:   Tue Jul 7 15:03:41 2020 +0700
+
+    Initial commit
+
+diff --git a/.gitignore b/.gitignore
+new file mode 100644
+index 0000000..859f705
+--- /dev/null
++++ b/.gitignore
+@@ -0,0 +1,276 @@
++## Core latex/pdflatex auxiliary files:
++*.aux
++*.lof
++*.log
++*.lot
++*.fls
++*.out
++*.toc
++*.fmt
++*.fot
++*.cb
++*.cb2
++.*.lb
++
++## Intermediate documents:
++*.dvi
++*.xdv
++*-converted-to.*
++# these rules might exclude image files for figures etc.
++# *.ps
++# *.eps
++# *.pdf
++
++## Generated if empty string is given at "Please type another file name for output:"
++.pdf
++
++## Bibliography auxiliary files (bibtex/biblatex/biber):
++*.bbl
++*.bcf
++*.blg
++*-blx.aux
++*-blx.bib
++*.run.xml
++
++## Build tool auxiliary files:
++*.fdb_latexmk
++*.synctex
++*.synctex(busy)
++*.synctex.gz
++*.synctex.gz(busy)
++*.pdfsync
++
++## Build tool directories for auxiliary files
++# latexrun
++latex.out/
++
++## Auxiliary and intermediate files from other packages:
++# algorithms
++*.alg
++*.loa
++
++# achemso
++acs-*.bib
++
++# amsthm
++*.thm
++
++# beamer
++*.nav
++*.pre
++*.snm
++*.vrb
++
++# changes
++*.soc
++
++# comment
++*.cut
++
++# cprotect
++*.cpt
++
++# elsarticle (documentclass of Elsevier journals)
++*.spl
++
++# endnotes
++*.ent
++
++# fixme
++*.lox
++
++# feynmf/feynmp
++*.mf
++*.mp
++*.t[1-9]
++*.t[1-9][0-9]
++*.tfm
++
++#(r)(e)ledmac/(r)(e)ledpar
++*.end
++*.?end
++*.[1-9]
++*.[1-9][0-9]
++*.[1-9][0-9][0-9]
++*.[1-9]R
++*.[1-9][0-9]R
++*.[1-9][0-9][0-9]R
++*.eledsec[1-9]
++*.eledsec[1-9]R
++*.eledsec[1-9][0-9]
++*.eledsec[1-9][0-9]R
++*.eledsec[1-9][0-9][0-9]
++*.eledsec[1-9][0-9][0-9]R
++
++# glossaries
++*.acn
++*.acr
++*.glg
++*.glo
++*.gls
++*.glsdefs
++*.lzo
++*.lzs
++
++# uncomment this for glossaries-extra (will ignore makeindex's style files!)
++# *.ist
++
++# gnuplottex
++*-gnuplottex-*
++
++# gregoriotex
++*.gaux
++*.gtex
++
++# htlatex
++*.4ct
++*.4tc
++*.idv
++*.lg
++*.trc
++*.xref
++
++# hyperref
++*.brf
++
++# knitr
++*-concordance.tex
++# TODO Comment the next line if you want to keep your tikz graphics files
++*.tikz
++*-tikzDictionary
++
++# listings
++*.lol
++
++# luatexja-ruby
++*.ltjruby
++
++# makeidx
++*.idx
++*.ilg
++*.ind
++
++# minitoc
++*.maf
++*.mlf
++*.mlt
++*.mtc[0-9]*
++*.slf[0-9]*
++*.slt[0-9]*
++*.stc[0-9]*
++
++# minted
++_minted*
++*.pyg
++
++# morewrites
++*.mw
++
++# nomencl
++*.nlg
++*.nlo
++*.nls
++
++# pax
++*.pax
++
++# pdfpcnotes
++*.pdfpc
++
++# sagetex
++*.sagetex.sage
++*.sagetex.py
++*.sagetex.scmd
++
++# scrwfile
++*.wrt
++
++# sympy
++*.sout
++*.sympy
++sympy-plots-for-*.tex/
++
++# pdfcomment
++*.upa
++*.upb
++
++# pythontex
++*.pytxcode
++pythontex-files-*/
++
++# tcolorbox
++*.listing
++
++# thmtools
++*.loe
++
++# TikZ & PGF
++*.dpth
++*.md5
++*.auxlock
++
++# todonotes
++*.tdo
++
++# vhistory
++*.hst
++*.ver
++
++# easy-todo
++*.lod
++
++# xcolor
++*.xcp
++
++# xmpincl
++*.xmpi
++
++# xindy
++*.xdy
++
++# xypic precompiled matrices and outlines
++*.xyc
++*.xyd
++
++# endfloat
++*.ttt
++*.fff
++
++# Latexian
++TSWLatexianTemp*
++
++## Editors:
++# WinEdt
++*.bak
++*.sav
++
++# Texpad
++.texpadtmp
++
++# LyX
++*.lyx~
++
++# Kile
++*.backup
++
++# gummi
++.*.swp
++
++# KBibTeX
++*~[0-9]*
++
++# TeXnicCenter
++*.tps
++
++# auto folder when using emacs and auctex
++./auto/*
++*.el
++
++# expex forward references with \gathertags
++*-tags.tex
++
++# standalone packages
++*.sta
++
++# Makeindex log files
++*.lpz
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..9281a38
+--- /dev/null
++++ b/README.md
+@@ -0,0 +1,2 @@
++# skyc
++The Skycliff (fantasy)
