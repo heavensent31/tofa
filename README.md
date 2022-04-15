@@ -96,6 +96,7 @@ Fanfics by Emil Viesná (aka regnveig).
 ![Started: 2022/03/11](https://img.shields.io/date/1646984700?label=started&style=flat-square)
 ![Finished: not yet](https://img.shields.io/badge/finished-not%20yet-yellow?style=flat-square)
 
+
 **Name:** BSRK
 
 **Genre:** Fantasy fan fiction
