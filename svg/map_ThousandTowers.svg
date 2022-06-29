@@ -446,9 +446,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.70000001"
-     inkscape:cx="114.61619"
-     inkscape:cy="401.94561"
+     inkscape:zoom="1.4"
+     inkscape:cx="462.12024"
+     inkscape:cy="464.5904"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -487,7 +487,24 @@
        width="210.6796"
        height="190.98686"
        x="-73.334328"
-       y="16.439741" />
+       y="16.506559" />
+    <path
+       style="fill:#483e37;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="m -22.803421,81.799901 -2.873147,2.405425 -20.512937,33.141424 -0.467722,3.4745 22.450641,9.28762 1.269529,4.81085 3.207234,3.80859 7.349914,-4.2095 -0.868627,-2.00452 -1.135896,-7.21627 3.34087,-20.44612 -5.879931,-17.706609 -0.801809,-7.149459 z"
+       id="path1511"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#5aa02c;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -17.056806,87.348658 1.322917,4.771951 18.3790903,-4.393975 2.8356004,-3.337989 0.7453863,-1.821783 -0.98986,-0.582516 0.4547775,-1.121272 -0.5824021,-0.133863 0.8793455,-0.71598 -1.0511927,-0.974068 0.0021,-1.179428 -0.2621328,-1.377893 -20.5524549,8.126489 z"
+       id="path1509"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccccc" />
+    <path
+       style="fill:#c8ab37;fill-opacity:1;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -16.818534,87.505918 c -0.423863,1.818131 0.564402,3.153165 1.27567,4.582961 l 0.779577,-0.330729 c -1.013956,-1.392281 -1.668152,-2.836523 -1.299295,-4.417597 z"
+       id="path1614"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
     <path
        style="fill:#677821;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
        d="m 31.185022,120.2199 -22.3838213,11.22531 -13.7643815,-2.80633 -9.4880692,-3.67495 1.269532,7.61718 14.6330055,9.48807 2.6058786,-1.46998 11.6930409,-0.86863 16.169806,-8.0849 1.336347,-1.40317 z"
@@ -1191,12 +1208,6 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <path
-       style="fill:none;stroke:#ffffff;stroke-width:0.70555556;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.35277779, 0.35277779;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow1Send-7-6)"
-       d="m -30.116569,120.75862 -4.497319,3.56308"
-       id="path5496-2-0"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
-    <path
        style="fill:none;stroke:#ffffff;stroke-width:0.70555556;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.35277779, 0.35277779;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow1Send-7-61)"
        d="m -25.013891,129.92455 5.141073,1.29522"
        id="path5496-2-9"
@@ -1346,20 +1357,20 @@
        cy="106.25507"
        r="1.0690781" />
     <circle
-       style="opacity:1;fill:#ff0000;stroke:#000000;stroke-width:0.26458332;stroke-opacity:1"
+       style="opacity:1;fill:#c8ab37;stroke:#000000;stroke-width:0.26458332;stroke-opacity:1"
        id="path4623-6-6"
-       cx="-13.048082"
-       cy="83.403519"
+       cx="-13.716256"
+       cy="86.076218"
        r="1.0690781" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.56954956px;line-height:69.69999671%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.06423874"
-       x="-13.858994"
-       y="86.460884"
+       x="-13.658541"
+       y="83.855011"
        id="text4627-1-7"><tspan
          sodipodi:role="line"
-         x="-13.858994"
-         y="86.460884"
+         x="-13.658541"
+         y="83.855011"
          style="font-size:1.71303308px;line-height:69.69999671%;text-align:center;text-anchor:middle;stroke-width:0.06423874"
          id="tspan5494-3">Лазарка</tspan></text>
     <text
@@ -1663,5 +1674,185 @@
          x="50.915539"
          y="117.51573"
          style="font-size:2.91609836px;letter-spacing:1.84426653px;word-spacing:1.80497873px;fill:#22280b;stroke-width:0.10935369">Зелемор</tspan></text>
+    <circle
+       style="opacity:1;fill:#c8ab37;stroke:#000000;stroke-width:0.13229166;stroke-opacity:1"
+       id="path4623-6-6-3"
+       cx="-7.2995434"
+       cy="82.564339"
+       r="0.53453904" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.56954956px;line-height:69.69999671%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.06423874"
+       x="-9.2136116"
+       y="81.045395"
+       id="text4627-1-7-6"><tspan
+         sodipodi:role="line"
+         x="-9.2136116"
+         y="81.045395"
+         style="font-size:1.71303308px;line-height:69.69999671%;text-align:center;text-anchor:middle;stroke-width:0.06423874"
+         id="tspan5494-3-7">Донница</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.56954956px;line-height:69.69999671%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.06423874"
+       x="-2.3982391"
+       y="79.274719"
+       id="text4627-1-7-3"><tspan
+         sodipodi:role="line"
+         x="-2.3982389"
+         y="79.274719"
+         style="font-size:1.71303308px;line-height:69.69999671%;text-align:center;text-anchor:middle;stroke-width:0.06423874"
+         id="tspan5494-3-5">Трелегром</tspan></text>
+    <circle
+       style="opacity:1;fill:#c8ab37;stroke:#000000;stroke-width:0.13229166;stroke-opacity:1"
+       id="path4623-6-6-3-6"
+       cx="-0.018694164"
+       cy="80.563782"
+       r="0.53453904" />
+    <circle
+       style="opacity:1;fill:#a02c2c;stroke:#000000;stroke-width:0.26458332;stroke-opacity:1;fill-opacity:1"
+       id="path4623-6-6-3-2"
+       cx="0.68221664"
+       cy="74.450661"
+       r="1.0690781" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.56954956px;line-height:69.69999671%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.06423874"
+       x="2.3030202"
+       y="70.608719"
+       id="text4627-1-7-3-9"><tspan
+         sodipodi:role="line"
+         x="2.3030202"
+         y="70.608719"
+         style="font-size:1.71303308px;line-height:69.69999671%;text-align:center;text-anchor:middle;stroke-width:0.06423874"
+         id="tspan5494-3-5-1">Расколата</tspan><tspan
+         sodipodi:role="line"
+         x="2.30302"
+         y="72.399696"
+         style="font-size:1.71303308px;line-height:69.69999671%;text-align:center;text-anchor:middle;stroke-width:0.06423874"
+         id="tspan1489">(Гостевая Гора)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.70226645px;line-height:1.25;font-family:sans-serif;letter-spacing:1.13935339px;word-spacing:0px;fill:#c6e9af;fill-opacity:1;stroke:none;stroke-width:0.06755666"
+       x="-54.524128"
+       y="74.893654"
+       id="text4627-4-6-0-5-3-3-36-2"
+       transform="matrix(0.89925508,-0.4431949,0.46486968,0.88292204,0,0)"
+       inkscape:transform-center-x="0.14208948"
+       inkscape:transform-center-y="0.094730223"><tspan
+         sodipodi:role="line"
+         id="tspan4625-5-1-6-4-6-7-7-7"
+         x="-54.524128"
+         y="74.893654"
+         style="font-size:1.80151105px;letter-spacing:1.13935339px;word-spacing:1.11508214px;fill:#c6e9af;stroke-width:0.06755666">Садоводие</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.60675478px;line-height:1.25;font-family:sans-serif;letter-spacing:0.67745411px;word-spacing:0px;fill:#22280b;fill-opacity:1;stroke:none;stroke-width:0.04016887"
+       x="8.7985744"
+       y="125.30392"
+       id="text4627-4-6-0-5-3-3-36-0"
+       transform="matrix(0.90287906,0.43576466,-0.4095497,0.90990339,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan4625-5-1-6-4-6-7-7-9"
+         x="8.7985744"
+         y="125.30392"
+         style="font-size:1.07116985px;letter-spacing:0.67745411px;word-spacing:0.66302252px;fill:#241f1c;stroke-width:0.04016887">Каньон Сухих Козлов</tspan></text>
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:0.70555556;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.35277779, 0.35277779;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow1Send-7-6)"
+       d="m -30.116569,120.75862 -4.497319,3.56308"
+       id="path5496-2-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.91934717px;line-height:1.25;font-family:sans-serif;letter-spacing:0.38762325px;word-spacing:0px;fill:#22280b;fill-opacity:1;stroke:none;stroke-width:0.02298368"
+       x="-127.57055"
+       y="8.1574278"
+       id="text4627-4-6-0-5-3-3-36-0-3"
+       transform="matrix(0.20439435,-0.98148072,0.9819544,0.17725878,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan4625-5-1-6-4-6-7-7-9-6"
+         x="-127.57055"
+         y="8.1574278"
+         style="font-size:0.61289811px;letter-spacing:0.38762325px;word-spacing:0.37936583px;fill:#241f1c;stroke-width:0.02298368">Каньон Северная Западня</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.91934711px;line-height:1.25;font-family:sans-serif;letter-spacing:0.38762322px;word-spacing:0px;fill:#22280b;fill-opacity:1;stroke:none;stroke-width:0.02298368"
+       x="-102.35291"
+       y="-16.000624"
+       id="text4627-4-6-0-5-3-3-36-0-3-0"
+       transform="matrix(0.01336372,-1.0024484,0.99773572,-0.01336369,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan4625-5-1-6-4-6-7-7-9-6-6"
+         x="-102.35291"
+         y="-16.000624"
+         style="font-size:0.61289811px;letter-spacing:0.38762322px;word-spacing:0.37936583px;fill:#241f1c;stroke-width:0.02298368">Каньон Южная Западня</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.00766134px;line-height:1.25;font-family:sans-serif;letter-spacing:4.0878129px;word-spacing:0px;fill:#00112b;fill-opacity:1;stroke:none;stroke-width:0.12519154"
+       x="77.229485"
+       y="26.4533"
+       id="text4627-4-6-0-5-3-6"
+       transform="rotate(30)"><tspan
+         sodipodi:role="line"
+         id="tspan4625-5-1-6-4-6-1"
+         x="77.229485"
+         y="26.4533"
+         style="font-size:3.3384409px;letter-spacing:4.0878129px;word-spacing:2.06639624px;fill:#00112b;stroke-width:0.12519154">Кикомбе</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.57432437px;line-height:69.69999671%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01435811"
+       x="-14.300852"
+       y="88.306053"
+       id="text4627-1-7-6-8"><tspan
+         sodipodi:role="line"
+         x="-14.300852"
+         y="88.306053"
+         style="font-size:0.38288292px;line-height:69.69999671%;text-align:center;text-anchor:middle;stroke-width:0.01435811"
+         id="tspan5494-3-7-7">Стена Гарольда</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.57432437px;line-height:69.69999671%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01435811"
+       x="5.2813148"
+       y="79.89489"
+       id="text4627-1-7-6-8-9"><tspan
+         sodipodi:role="line"
+         x="5.2813148"
+         y="79.89489"
+         style="font-size:0.38288292px;line-height:69.69999671%;text-align:center;text-anchor:middle;stroke-width:0.01435811"
+         id="tspan5494-3-7-7-2">Балкон Марии</tspan></text>
+    <circle
+       style="opacity:1;fill:#ff0000;stroke:#000000;stroke-width:0.05291666;stroke-opacity:1"
+       id="path4623-6-0"
+       cx="20.062998"
+       cy="111.08622"
+       r="0.21381561" />
+    <circle
+       style="opacity:1;fill:#ff0000;stroke:#000000;stroke-width:0.05291666;stroke-opacity:1"
+       id="path4623-6-0-7"
+       cx="20.71719"
+       cy="111.76356"
+       r="0.21381563" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.51390994px;line-height:69.69999671%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01284775"
+       x="19.556643"
+       y="111.69748"
+       id="text4627-1-5"><tspan
+         sodipodi:role="line"
+         x="19.556643"
+         y="111.69748"
+         style="font-size:0.3426066px;line-height:69.69999671%;text-align:center;text-anchor:middle;stroke-width:0.01284775"
+         id="tspan5494-2">Протеом</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:0.51390994px;line-height:69.69999671%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.01284775"
+       x="21.223003"
+       y="112.33015"
+       id="text4627-1-5-7"><tspan
+         sodipodi:role="line"
+         x="21.223003"
+         y="112.33015"
+         style="font-size:0.3426066px;line-height:69.69999671%;text-align:center;text-anchor:middle;stroke-width:0.01284775"
+         id="tspan5494-2-3">Экзом</tspan></text>
   </g>
 </svg>
