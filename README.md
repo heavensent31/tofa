@@ -1,4 +1,5 @@
 # Regnveig's Bookshelf
+![Keybase PGP](https://img.shields.io/keybase/pgp/regnveig?style=flat-square)
 ![Commits](https://badgen.net/github/commits/regnveig/tofa?style=flat-square)
 ![Lines of code](https://img.shields.io/tokei/lines/github/regnveig/tofa?style=flat-square)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/regnveig/tofa?style=flat-square)
