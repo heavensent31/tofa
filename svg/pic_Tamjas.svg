@@ -2,20 +2,20 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="420mm"
    height="594mm"
    viewBox="0 0 420 594"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
-   sodipodi:docname="pic_Tamjas.svg">
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="pic_Tamjas.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -25,19 +25,20 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="996.99554"
-     inkscape:cy="1338.1129"
+     inkscape:zoom="0.35"
+     inkscape:cx="475.71428"
+     inkscape:cy="1060"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1015"
+     inkscape:window-height="1007"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      showguides="true"
-     units="mm" />
+     units="mm"
+     inkscape:pagecheckerboard="0" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -46,7 +47,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -87,10 +87,10 @@
     <flowRoot
        xml:space="preserve"
        id="flowRoot829"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:26.66666794px;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:26.6667px;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
        transform="matrix(0.26458333,0,0,0.26458333,-26.726953,-294.86184)"><flowRegion
          id="flowRegion831"
-         style="line-height:26.66666794px;text-align:center;text-anchor:middle"><rect
+         style="line-height:26.6667px;text-align:center;text-anchor:middle"><rect
            id="rect833"
            width="494.97473"
            height="199.00005"
@@ -98,15 +98,16 @@
            y="409.59213"
            style="line-height:26.66666794px;text-align:center;text-anchor:middle" /></flowRegion><flowPara
          id="flowPara835"
-         style="font-size:26.66666794px;line-height:26.66666794px;text-align:center;text-anchor:middle">Красный Картель. </flowPara><flowPara
+         style="font-size:26.6667px;line-height:26.6667px;text-align:center;text-anchor:middle">Красный Картель. </flowPara><flowPara
          id="flowPara837"
-         style="font-size:26.66666794px;line-height:26.66666794px;text-align:center;text-anchor:middle">Три союзных планеты - Нимб с луной, Океан, Чёрная Скала с вулканом</flowPara></flowRoot>    <flowRoot
+         style="font-size:26.6667px;line-height:26.6667px;text-align:center;text-anchor:middle">Три союзных планеты - Нимб с луной, Океан, Чёрная Скала с вулканом</flowPara></flowRoot>
+    <flowRoot
        xml:space="preserve"
        id="flowRoot829-3"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:26.66666794px;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:26.6667px;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
        transform="matrix(0.26458333,0,0,0.26458333,-32.284753,-137.73836)"><flowRegion
          id="flowRegion831-6"
-         style="line-height:26.66666794px;text-align:center;text-anchor:middle"><rect
+         style="line-height:26.6667px;text-align:center;text-anchor:middle"><rect
            id="rect833-7"
            width="494.97473"
            height="199.00005"
@@ -114,19 +115,39 @@
            y="409.59213"
            style="line-height:26.66666794px;text-align:center;text-anchor:middle" /></flowRegion><flowPara
          id="flowPara835-5"
-         style="font-size:26.66666794px;line-height:26.66666794px;text-align:center;text-anchor:middle">Союз Воронёной Стали. </flowPara><flowPara
+         style="font-size:26.6667px;line-height:26.6667px;text-align:center;text-anchor:middle">Союз Воронёной Стали. </flowPara><flowPara
          id="flowPara837-3"
-         style="font-size:26.66666794px;line-height:26.66666794px;text-align:center;text-anchor:middle">Барабан револьвера </flowPara><flowPara
-         style="font-size:26.66666794px;line-height:26.66666794px;text-align:center;text-anchor:middle"
+         style="font-size:26.6667px;line-height:26.6667px;text-align:center;text-anchor:middle">Барабан револьвера </flowPara><flowPara
+         style="font-size:26.6667px;line-height:26.6667px;text-align:center;text-anchor:middle"
          id="flowPara866">с одной пулей. </flowPara><flowPara
-         style="font-size:26.66666794px;line-height:26.66666794px;text-align:center;text-anchor:middle"
-         id="flowPara843">&quot;Решаем проблему одним патроном&quot;.</flowPara></flowRoot>    <flowRoot
+         style="font-size:26.6667px;line-height:26.6667px;text-align:center;text-anchor:middle"
+         id="flowPara843">&quot;Решаем проблему одним патроном&quot;.</flowPara></flowRoot>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot829-3-3"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:26.6667px;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,-20.136396,63.34773)"><flowRegion
+         id="flowRegion831-6-6"
+         style="line-height:26.6667px;text-align:center;text-anchor:middle"><rect
+           id="rect833-7-7"
+           width="494.97473"
+           height="199.00005"
+           x="112.12693"
+           y="409.59213"
+           style="line-height:26.66666794px;text-align:center;text-anchor:middle" /></flowRegion><flowPara
+         id="flowPara835-5-5"
+         style="font-size:26.6667px;line-height:26.6667px;text-align:center;text-anchor:middle">Клан Оньё с Тысячи Башен. </flowPara><flowPara
+         style="font-size:26.6667px;line-height:26.6667px;text-align:center;text-anchor:middle"
+         id="flowPara866-5">Беременная коза. </flowPara><flowPara
+         style="font-size:26.6667px;line-height:26.6667px;text-align:center;text-anchor:middle"
+         id="flowPara843-6">&quot;Будь осторожен&quot;.</flowPara></flowRoot>
+    <flowRoot
        xml:space="preserve"
        id="flowRoot829-5"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:26.66666794px;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:26.6667px;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
        transform="matrix(0.26458333,0,0,0.26458333,103.98966,-242.265)"><flowRegion
          id="flowRegion831-62"
-         style="line-height:26.66666794px;text-align:center;text-anchor:middle"><rect
+         style="line-height:26.6667px;text-align:center;text-anchor:middle"><rect
            id="rect833-9"
            width="494.97473"
            height="199.00005"
@@ -134,15 +155,16 @@
            y="409.59213"
            style="line-height:26.66666794px;text-align:center;text-anchor:middle" /></flowRegion><flowPara
          id="flowPara835-1"
-         style="font-size:26.66666794px;line-height:26.66666794px;text-align:center;text-anchor:middle">Орден Преисподней. </flowPara><flowPara
+         style="font-size:26.6667px;line-height:26.6667px;text-align:center;text-anchor:middle">Орден Преисподней. </flowPara><flowPara
          id="flowPara837-2"
-         style="font-size:26.66666794px;line-height:26.66666794px;text-align:center;text-anchor:middle">Вулкан и бабочка</flowPara></flowRoot>    <flowRoot
+         style="font-size:26.6667px;line-height:26.6667px;text-align:center;text-anchor:middle">Вулкан и бабочка</flowPara></flowRoot>
+    <flowRoot
        xml:space="preserve"
        id="flowRoot829-7"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:26.66666794px;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:26.6667px;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
        transform="matrix(0.26458333,0,0,0.26458333,246.86465,-264.94357)"><flowRegion
          id="flowRegion831-0"
-         style="line-height:26.66666794px;text-align:center;text-anchor:middle"><rect
+         style="line-height:26.6667px;text-align:center;text-anchor:middle"><rect
            id="rect833-93"
            width="494.97473"
            height="199.00005"
@@ -150,15 +172,16 @@
            y="409.59213"
            style="line-height:26.66666794px;text-align:center;text-anchor:middle" /></flowRegion><flowPara
          id="flowPara837-0"
-         style="font-size:26.66666794px;line-height:26.66666794px;text-align:center;text-anchor:middle">Орден Тысячи Башен.</flowPara><flowPara
-         style="font-size:26.66666794px;line-height:26.66666794px;text-align:center;text-anchor:middle"
-         id="flowPara898">Хук, глайдер и две друзы, образующие числа 5 и 4 - девять кланов, образовавших фракцию</flowPara></flowRoot>    <flowRoot
+         style="font-size:26.6667px;line-height:26.6667px;text-align:center;text-anchor:middle">Орден Тысячи Башен.</flowPara><flowPara
+         style="font-size:26.6667px;line-height:26.6667px;text-align:center;text-anchor:middle"
+         id="flowPara898">Хук, глайдер и две друзы, образующие числа 5 и 4 - девять кланов, образовавших фракцию</flowPara></flowRoot>
+    <flowRoot
        xml:space="preserve"
        id="flowRoot829-6"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:26.66666794px;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:26.6667px;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
        transform="matrix(0.26458333,0,0,0.26458333,93.028347,-78.979288)"><flowRegion
          id="flowRegion831-2"
-         style="line-height:26.66666794px;text-align:center;text-anchor:middle"><rect
+         style="line-height:26.6667px;text-align:center;text-anchor:middle"><rect
            id="rect833-6"
            width="494.97473"
            height="199.00005"
@@ -166,9 +189,10 @@
            y="409.59213"
            style="line-height:26.66666794px;text-align:center;text-anchor:middle" /></flowRegion><flowPara
          id="flowPara837-7"
-         style="font-size:26.66666794px;line-height:26.66666794px;text-align:center;text-anchor:middle">Клан Дорге.</flowPara><flowPara
-         style="font-size:26.66666794px;line-height:26.66666794px;text-align:center;text-anchor:middle"
-         id="flowPara916">Хук и глайдер, складывающиеся в стилизованную монограмму ЖД</flowPara></flowRoot>    <path
+         style="font-size:26.6667px;line-height:26.6667px;text-align:center;text-anchor:middle">Клан Дорге.</flowPara><flowPara
+         style="font-size:26.6667px;line-height:26.6667px;text-align:center;text-anchor:middle"
+         id="flowPara916">Хук и глайдер, складывающиеся в стилизованную монограмму ЖД</flowPara></flowRoot>
+    <path
        id="path865"
        style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.2046033px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 334.88549,-29.724365 c -1.41768,0.345671 -2.2533,3.349289 -1.09608,4.238194 1.13152,0.869176 3.57266,-0.1223 3.65362,-1.388377 0.0815,-1.273785 -1.31749,-3.152179 -2.55754,-2.849817 z m 16.0029,-27.694525 c -2.32075,-0.741254 -5.15002,2.627573 -3.65364,4.822792 0.97516,1.430588 4.38036,1.364717 5.2487,0.171219 1.09482,-1.504792 0.17763,-4.427808 -1.59506,-4.994011 z m -32.46565,-1.757415 c -2.77631,-0.02741 -3.77669,3.45901 -1.58619,4.97261 1.25544,0.86749 3.79559,-0.419315 4.16515,-1.899889 0.34922,-1.399117 -1.13698,-3.058481 -2.57896,-3.072721 z m 13.17448,7.237859 c 0.2066,1.785552 -0.62479,3.18185 -1.97297,4.384358 1.69163,2.025799 3.07261,4.14718 2.26525,6.941898 1.04779,-0.803376 2.18719,-1.515161 4.38436,-1.169163 0.0831,-3.104353 1.69542,-4.169838 3.5075,-4.968937 -1.69919,-1.577552 -2.53533,-3.514713 -1.89989,-6.065027 -1.5029,0.776529 -2.72073,1.7863 -6.28425,0.876871 z M 302.3879,-98.196154 c 6.86891,8.76991 13.56153,17.71613 21.08142,25.835066 4.28648,-2.791565 6.0688,-8.212507 7.64717,-13.847597 0.50091,6.202564 -2.58382,14.12959 -4.34029,16.172752 -2.41797,2.812623 3.65169,12.628177 7.26374,13.165813 3.00185,0.44681 8.77452,-6.180993 7.41057,-9.910595 -2.04147,-5.582208 -5.28056,-20.420372 -5.16701,-20.461374 0,0 5.24317,9.916843 7.85386,14.881001 0.51771,0.984396 1.42343,1.673544 2.48016,0.62004 5.51342,-5.496607 13.84761,-18.807926 13.84761,-18.807926 0,0 -4.11509,14.375669 -8.47391,20.25469 -0.8165,1.101271 -0.77816,2.91405 1.65344,2.686847 5.576,-0.521011 14.05429,-7.64718 14.05429,-7.64718 -2.20269,5.311046 -7.2861,9.304396 -15.89756,11.584498 -3.49578,0.925597 -8.53259,5.555541 -7.68639,9.871825 0.98289,5.013499 7.27945,8.745526 11.47754,4.485128 3.3841,-3.434308 7.50417,-7.949868 12.31307,-11.060452 l -8.26722,13.640917 c 7.41456,1.235365 12.40994,2.03088 17.77455,2.893528 -6.39873,0.574154 -13.08647,0.694135 -18.18791,3.306888 3.02981,5.849408 7.20028,10.130404 11.7808,13.847589 -5.4539,-2.88206 -13.3397,-6.499415 -18.60125,-14.054271 -1.39773,-2.006956 -8.15365,-3.848994 -9.79886,0.09202 -1.53906,3.686745 5.28501,13.943753 7.55475,14.231618 4.35903,0.552843 8.21287,0.914999 13.40485,4.690972 0,0 -7.36224,-1.084353 -10.95405,-0.41336 -1.26542,0.236396 -1.74445,1.524352 -0.20669,2.89352 6.55334,5.834815 10.35085,16.3463016 10.74738,20.6680633 -3.29576,-6.5929297 -7.36587,-12.2642133 -13.84759,-17.9812123 -1.1762,-1.037434 -2.889,-0.265201 -4.96032,1.65344 -5.04131,4.669725 -8.88727,18.6012632 -8.88727,18.6012632 -1.84496,-7.2275796 1.42665,-16.0878272 6.84338,-23.9957312 2.61313,-3.814928 -2.17846,-12.335385 -6.68684,-13.363314 -2.98282,-0.680095 -7.42287,4.002167 -5.83291,6.615935 1.80554,2.968155 4.08855,7.28506 3.60957,13.795307 -1.81274,-4.79598 -3.82315,-9.347786 -8.88727,-10.127351 -6.00881,6.897969 -11.73442,14.9287256 -17.56786,22.52817364 4.01393,-8.22013004 8.80522,-15.40377064 11.7808,-25.00835464 -5.21056,-5.118262 -14.16786,-4.547144 -22.11482,-5.167011 0.12483,-0.873847 14.06405,-3.914158 21.70969,-2.018803 6.38524,1.5829 8.38922,-3.559044 7.46773,-7.784146 -0.86553,-3.96855 -5.80367,-5.744077 -7.62424,-3.762736 -4.39034,4.778034 -8.75595,7.461366 -14.9394,8.812034 4.00809,-2.947133 7.79604,-4.486797 9.09395,-9.093939 -8.26453,-2.189055 -16.40063,-4.458374 -27.69519,-4.753651 7.60314,-1.304715 15.80454,-1.263345 24.18161,-0.826722 -1.93303,-4.491899 -7.83794,-9.36798 -11.78079,-14.054279 8.07551,5.331859 12.47761,10.461147 14.46764,11.780792 3.02171,2.003772 9.7898,2.952161 12.8142,0.465032 3.34007,-2.746714 -2.85946,-11.385708 -4.54698,-11.625782 -5.12983,-0.729796 -21.85468,-7.834003 -22.73486,-12.400832 6.81859,3.73797 12.18158,7.95196 20.66806,5.993735 -5.84518,-8.76701 -10.32288,-18.510778 -15.29435,-27.901868 z"
@@ -176,18 +200,24 @@
     <flowRoot
        xml:space="preserve"
        id="flowRoot829-6-3"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:26.66666794px;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:26.6667px;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
        transform="matrix(0.26458333,0,0,0.26458333,240.99789,-86.609381)"><flowRegion
          id="flowRegion831-2-6"
-         style="line-height:26.66666794px;text-align:center;text-anchor:middle"><rect
+         style="line-height:26.6667px;text-align:center;text-anchor:middle"><rect
            id="rect833-6-7"
            width="494.97473"
            height="199.00005"
            x="112.12693"
            y="409.59213"
            style="line-height:26.66666794px;text-align:center;text-anchor:middle" /></flowRegion><flowPara
-         style="font-size:26.66666794px;line-height:26.66666794px;text-align:center;text-anchor:middle"
+         style="font-size:26.6667px;line-height:26.6667px;text-align:center;text-anchor:middle"
          id="flowPara916-3">Клан Мороза.</flowPara><flowPara
-         style="font-size:26.66666794px;line-height:26.66666794px;text-align:center;text-anchor:middle"
-         id="flowPara897">Снежинка</flowPara></flowRoot>  </g>
+         style="font-size:26.6667px;line-height:26.6667px;text-align:center;text-anchor:middle"
+         id="flowPara897">Снежинка</flowPara></flowRoot>
+    <path
+       id="path1000"
+       style="fill:#000000;stroke:#000000;stroke-width:0.14024px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 40.943352,78.905831 c 0.573172,20.409734 -1.341843,40.296489 -4.782959,59.862579 8.4133,-5.37104 20.639615,-6.44486 16.40482,-26.07099 0,0 14.956633,-29.403878 28.105567,-27.99819 9.32123,0.996486 12.163637,15.86758 4.089151,19.70129 -7.191782,3.41459 -7.936538,-2.02491 -12.664347,-6.856434 2.024315,7.523554 3.749781,13.484774 9.599608,12.779664 16.977498,-2.0464 16.963722,-28.332828 0.0282,-31.192768 -15.867899,-2.679651 -35.467355,32.753758 -35.467355,32.753758 3.19661,12.46454 -0.476713,12.36417 -3.68715,14.6088 2.25519,-16.68934 -0.365655,-30.487662 -1.625543,-47.587709 z m 72.081008,14.090306 c -0.48436,0.0057 -0.9283,0.125339 -1.25778,0.388128 -1.29348,1.031668 -0.78691,4.291271 0.74886,4.906761 1.54572,0.619476 4.18922,-1.402257 3.95576,-3.051048 -0.17725,-1.251826 -1.99375,-2.260967 -3.44684,-2.243841 z m -4.61505,8.552463 c 0,0 -8.05693,7.64918 -11.313171,12.11215 -5.741614,7.86938 -4.950924,22.61231 -14.249993,25.51413 -1.983194,0.61887 -4.847725,-0.80827 -5.594268,-2.74701 -0.526861,-1.36821 0.249422,-3.58729 1.628098,-4.08613 1.647523,-0.59612 4.619436,2.50734 4.619436,2.50734 -0.442516,-4.00297 -4.457959,-7.0448 -6.967908,-4.79912 -2.405621,2.15233 -3.693082,5.3848 -2.525421,8.39414 1.404218,3.619 6.812001,6.1662 10.515822,5.004 10.031475,-3.1477 10.426812,-18.26021 15.632405,-27.39478 2.75443,-4.83336 8.255,-14.50472 8.255,-14.50472 z m 4.28965,19.82134 c -8.89254,16.55299 -7.33329,26.49421 -19.314805,40.03137 2.581526,-0.65144 7.422115,-1.56946 10.067075,-0.38751 6.61547,-15.44865 5.55724,-23.09218 9.24773,-39.64386 z m -52.288785,-7.44487 c -1.831909,18.64946 -11.395866,33.28739 -20.848133,47.98324 2.759499,-0.36904 5.557764,-1.34712 8.211174,-0.0521 4.04141,-7.99551 7.683454,-15.90654 10.043608,-24.17171 0.712641,9.25598 -1.064006,16.75192 -1.997325,24.23307 2.20914,-0.79264 6.461587,-0.4848 9.033058,0.2004 -4.780255,-16.98339 -3.332554,-32.60811 -4.442382,-48.19292 z m 22.169461,2.37203 c -2.930103,0.0152 -6.012211,0.60738 -9.106579,1.87983 -9.815581,4.03628 -11.890821,23.50593 -4.869512,31.46447 7.221466,8.18542 23.97932,5.74591 30.025103,-4.79473 4.136012,-7.21101 3.927052,-14.01517 1.056183,-19.17155 0.822579,2.78202 -1.617627,14.83105 -6.965129,18.87202 -6.106431,4.61447 -14.732325,6.1962 -20.32689,0.97292 -4.138162,-5.10359 -4.860494,-12.25326 -0.05787,-18.02897 9.352805,-8.93764 12.827031,-2.27131 13.512399,1.48679 2.698086,-3.93474 2.600429,-7.67211 4.037381,-11.44464 -2.252677,-0.81393 -4.719704,-1.24956 -7.305088,-1.23614 z m 49.734054,5.32009 c -5.15944,0.75954 -9.65823,2.77658 -16.6023,0.13969 l -2.20167,10.8248 c 1.06563,9.68437 0.20642,19.36451 -0.91457,28.8421 1.97269,-0.30643 3.72509,-0.92799 6.5324,-0.0397 -0.60441,-11.75619 -4.38789,-24.14583 -1.55743,-36.16445 6.64095,0.0928 10.75646,0.0284 14.74357,-3.60242 z"
+       sodipodi:nodetypes="sccsscsscccscsssccssscssssccccccscccccsscscssscccccccccccscc" />
+  </g>
 </svg>
