@@ -506,9 +506,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="580.83771"
-     inkscape:cy="28.284271"
+     inkscape:zoom="1.4"
+     inkscape:cx="931.07142"
+     inkscape:cy="337.14285"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -713,8 +713,8 @@
     <path
        style="fill:#917c6f;stroke:#241f1c;stroke-width:1.88976;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 554.64453,238.52344 -15.71289,13.57226 -19.28711,14.28516 -0.39648,0.375 18.6582,12.43945 -0.10937,0.29883 23.42773,-17.33789 1.17773,-1.64844 0.34961,0.51953 9.21875,-6.82226 -16.89062,-15.66602 z m 0.43555,0.0156 19.49023,13.74219 7.1836,-5.31445 -6.39453,-7.72852 z m 26.82617,8.60938 -18.37109,15.04883 6.86718,10.23632 21.54688,-12.17773 1.13476,0.14062 -0.58203,-0.44336 z m 12.7793,14.4707 -21.86328,14.42188 2.96484,4.41796 33.83984,25 -34.0039,-21.70312 1.39843,32.69726 23.3379,-5.07226 32.85742,-20 -13.57227,-10.71484 z m -32.76172,1.89844 -31.40235,25.72265 28.80274,17.72461 13.44531,-3.50781 0.74414,-20.97851 0.2793,-0.10547 z m -42.70508,3.26758 -26.7168,25.31054 c 0,0 10.68267,5.10068 17.42383,8.18946 L 509.875,300.15625 535.76172,281 Z m 8.72656,24.56445 -13.42187,10.99414 c 5.5039,2.347 25.12109,10.46484 25.12109,10.46484 l 1.65039,1.76172 -1.36914,-2.54492 16.92774,-4.41601 z m 44.6543,16.93555 -30.66406,6.96875 8.42383,8.98437 17.14257,-5.71484 4.77149,-1.03711 z"
-       transform="matrix(0.26458333,0,0,0.26458333,-76.257326,13.341523)"
-       id="path4601" />
+       id="path4601"
+       transform="matrix(0.26458333,0,0,0.26458333,-76.257326,13.341523)" />
     <path
        style="fill:#917c6f;stroke:#241f1c;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 91.848214,77.962796 3.023809,-5.102677 -0.944941,-1.700893 1.700893,-4.913691 0.377975,-10.772322 0.18899,-3.779761 3.77976,-0.944941 7.55952,8.693452 7.37054,6.425597 0.37798,6.992559 3.96875,3.023809 13.04017,3.401785 -2.07886,2.834822 -3.96875,1.889879 -7.18155,2.078871 -1.32292,0.377976 0.75595,6.425594 -3.59077,9.260415 -9.26042,4.15774 -1.70089,-5.85863 0.37798,-7.181549 -2.83482,-2.645833 -4.913695,-7.9375 z"
@@ -784,6 +784,17 @@
          x="48.92144"
          y="127.57733"
          style="font-size:1.71303px;stroke-width:0.0642387">Кышлау</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.56955px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0642387"
+       x="39.740696"
+       y="164.92949"
+       id="text4627-3"><tspan
+         id="tspan4625-56"
+         x="39.740696"
+         y="164.92949"
+         style="font-size:1.71303px;stroke-width:0.0642387"
+         sodipodi:role="line">Грелленбург</tspan></text>
     <circle
        style="opacity:1;fill:#808080;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
        id="path4623-3-6"
@@ -819,11 +830,62 @@
          x="58.555447"
          y="168.56055"
          style="font-size:1.71303px;stroke-width:0.0642387">Наваха</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.56955px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0642387"
+       x="82.079361"
+       y="123.10846"
+       id="text4627-5-3"><tspan
+         sodipodi:role="line"
+         id="tspan4625-6-5"
+         x="82.079361"
+         y="123.10846"
+         style="font-size:1.71303px;stroke-width:0.0642387">Хээр-Сувд</tspan></text>
     <circle
        style="opacity:1;fill:#ff0000;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
        id="path4623-2"
        cx="62.933037"
        cy="165.84227"
+       r="1.0690781" />
+    <circle
+       style="fill:#ff0000;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       id="path4623-2-5"
+       cx="87.423485"
+       cy="125.23643"
+       r="1.0690781" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.56955px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0642387"
+       x="56.514568"
+       y="106.04028"
+       id="text4627-5-3-2"><tspan
+         sodipodi:role="line"
+         id="tspan4625-6-5-7"
+         x="56.514568"
+         y="106.04028"
+         style="font-size:1.71303px;stroke-width:0.0642387">Дахайм-ам-Незен</tspan></text>
+    <circle
+       style="fill:#ff0000;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       id="path4623-2-5-0"
+       cx="64.135986"
+       cy="107.71732"
+       r="1.0690781" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.56955px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0642387"
+       x="64.337776"
+       y="88.279488"
+       id="text4627-5-3-2-9"><tspan
+         sodipodi:role="line"
+         id="tspan4625-6-5-7-3"
+         x="64.337776"
+         y="88.279488"
+         style="font-size:1.71303px;stroke-width:0.0642387">Шкильдзоммер</tspan></text>
+    <circle
+       style="fill:#ff0000;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       id="path4623-2-5-0-6"
+       cx="71.95919"
+       cy="89.956528"
        r="1.0690781" />
     <circle
        style="opacity:1;fill:#a02c2c;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
@@ -898,7 +960,7 @@
        cy="103.09821"
        r="1.0690781" />
     <circle
-       style="opacity:1;fill:#a02c2c;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       style="opacity:1;fill:#ff0000;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
        id="path4623-37"
        cx="42.711311"
        cy="162.0625"
@@ -1535,6 +1597,23 @@
          y="112.47018"
          style="font-size:1.00341px;stroke-width:0.037628">Хольцхафен</tspan></text>
     <circle
+       style="fill:#ff0000;stroke:#000000;stroke-width:0.155326;stroke-opacity:1"
+       id="path4623-36-5"
+       cx="79.565941"
+       cy="85.662697"
+       r="0.62761289" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.50512px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.037628"
+       x="78.235435"
+       y="87.217941"
+       id="text4627-7-6"><tspan
+         sodipodi:role="line"
+         id="tspan4625-53-2"
+         x="78.235435"
+         y="87.217941"
+         style="font-size:1.00341px;stroke-width:0.037628">Аманзи</tspan></text>
+    <circle
        style="opacity:1;fill:#ff0000;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
        id="path4623-56"
        cx="53.638947"
@@ -1552,6 +1631,57 @@
          y="112.87389"
          style="font-size:1.71303px;stroke-width:0.0642387">Ротештурм</tspan></text>
     <circle
+       style="fill:#ff0000;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       id="path4623-56-367"
+       cx="62.762814"
+       cy="57.379429"
+       r="1.0690781" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.56955px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0642387"
+       x="61.367332"
+       y="55.950886"
+       id="text4627-12-5"><tspan
+         sodipodi:role="line"
+         id="tspan4625-70-3"
+         x="61.367332"
+         y="55.950886"
+         style="font-size:1.71303px;stroke-width:0.0642387">Ньюмбани</tspan></text>
+    <circle
+       style="fill:#ff0000;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       id="path4623-56-36"
+       cx="25.211445"
+       cy="138.763"
+       r="1.0690781" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.56955px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0642387"
+       x="23.815964"
+       y="137.33446"
+       id="text4627-12-7"><tspan
+         sodipodi:role="line"
+         id="tspan4625-70-5"
+         x="23.815964"
+         y="137.33446"
+         style="font-size:1.71303px;stroke-width:0.0642387">Вандерлуст</tspan></text>
+    <circle
+       style="fill:#ff0000;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       id="path4623-56-3"
+       cx="59.755524"
+       cy="42.676113"
+       r="1.0690781" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.56955px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0642387"
+       x="58.360043"
+       y="41.24757"
+       id="text4627-12-6"><tspan
+         sodipodi:role="line"
+         id="tspan4625-70-7"
+         x="58.360043"
+         y="41.24757"
+         style="font-size:1.71303px;stroke-width:0.0642387">Пепони</tspan></text>
+    <circle
        style="opacity:1;fill:#ff0000;stroke:#000000;stroke-width:0.129313;stroke-opacity:1"
        id="path4623-936"
        cx="37.371765"
@@ -1568,6 +1698,23 @@
          x="33.49984"
          y="125.5421"
          style="font-size:0.877979px;stroke-width:0.0329242">Ломзе-ам-Заальранде</tspan></text>
+    <circle
+       style="fill:#ff0000;stroke:#000000;stroke-width:0.129313;stroke-opacity:1"
+       id="path4623-936-2"
+       cx="34.776966"
+       cy="134.42415"
+       r="0.52250212" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.31697px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0329242"
+       x="31.43293"
+       y="133.36064"
+       id="text4627-0-9"><tspan
+         sodipodi:role="line"
+         id="tspan4625-62-1"
+         x="31.43293"
+         y="133.36064"
+         style="font-size:0.877979px;stroke-width:0.0329242">Глюксдорф</tspan></text>
     <path
        style="fill:none;stroke:#ffffff;stroke-width:0.705556;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.352778, 0.352778;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow1Send-7-04-6)"
        d="m 39.420317,126.11438 c 2.014721,7.60277 -0.567122,8.47273 -3.070411,10.80449"
