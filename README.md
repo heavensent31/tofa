@@ -1,5 +1,5 @@
 # Regnveig's Bookshelf
-![Keybase PGP](https://img.shields.io/keybase/pgp/regnveig?style=flat-square)
+
 ![Commits](https://badgen.net/github/commits/regnveig/tofa?style=flat-square)
 ![Lines of code](https://img.shields.io/tokei/lines/github/regnveig/tofa?style=flat-square)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/regnveig/tofa?style=flat-square)
@@ -12,12 +12,13 @@ Fanfics by Emil Viesná (aka regnveig).
 ## PTRY
 
 ![Size](https://badge-size.herokuapp.com/regnveig/tofa/master/tex/ptry.tex?style=flat-square)
+[![Creative Commons License](https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png)](http://creativecommons.org/licenses/by-nc-nd/4.0)
 
 **Name:** The Million-Stringed Guqin (Russian: Гуцинь с миллионом струн)
 
 **Genre:** Poetry
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a>
 
 ## TOFA
 
@@ -29,7 +30,7 @@ Fanfics by Emil Viesná (aka regnveig).
 
 **Genre:** Science fiction
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a>
 
 ## FFOG
 
@@ -41,7 +42,7 @@ Fanfics by Emil Viesná (aka regnveig).
 
 **Genre:** Novella
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a>
 
 ## SKYC
 
@@ -53,7 +54,7 @@ Fanfics by Emil Viesná (aka regnveig).
 
 **Genre:** Fantasy
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a>
 
 ## BABL
 
@@ -65,7 +66,7 @@ Fanfics by Emil Viesná (aka regnveig).
 
 **Genre:** Short story
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a>
 
 ## FOTF
 
@@ -77,7 +78,7 @@ Fanfics by Emil Viesná (aka regnveig).
 
 **Genre:** Novella
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a>
 
 ## SNAP
 
@@ -89,14 +90,13 @@ Fanfics by Emil Viesná (aka regnveig).
 
 **Genre:** Novella
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a>
 
 ## BSRK
 
 ![Size](https://badge-size.herokuapp.com/regnveig/tofa/master/fanfic/bsrk.tex?style=flat-square)
 ![Started: 2022/03/11](https://img.shields.io/date/1646984700?label=started&style=flat-square)
 ![Finished: not yet](https://img.shields.io/badge/finished-not%20yet-yellow?style=flat-square)
-
 
 **Name:** BSRK
 
