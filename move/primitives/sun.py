@@ -22,7 +22,6 @@ def DrawSunLip(Center, Number, Angle, Radius):
 
 def DrawSun(Center, Angle, SunRadius, HaloRadius):
 	Result = list()
-	Result.append('<svg width="4cm" height="4cm" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" version="1.1">')
 	Result.append('<g id="SunObject">')
 	Result.append('<defs id="SunDefs">')
 	Result.append('<linearGradient id="SunHaloBase"><stop style="stop-color:#ffffff;stop-opacity:1;" offset="0" /><stop style="stop-color:#ffffff;stop-opacity:0;" offset="1" /></linearGradient>')
@@ -32,7 +31,4 @@ def DrawSun(Center, Angle, SunRadius, HaloRadius):
 	Result.append(DrawSunSquare(Center, Angle, SunRadius, "fill:#ffffff"))
 	Result.append(DrawSunSquare(Center, Angle + pi4, SunRadius, "fill:#ffffff"))
 	Result.append('</g>')
-	Result.append('</svg>')
 	return ''.join(Result)
-
-with open('test.svg', 'wt') as f: f.write(DrawSun(MakePoint(200, 200), 20, 50, 200))

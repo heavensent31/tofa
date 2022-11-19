@@ -56,7 +56,6 @@ def DefineMoonGrad(Center, Number, Angle, Radius):
 
 def DrawMoon(Center, Angle, MoonRadius, HaloRadius, Phase):
 	Result = list()
-	Result.append('<svg width="4cm" height="4cm" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" version="1.1">')
 	Result.append('<g id="MoonObject">')
 	Result.append('<defs id="MoonDefs">')
 	Result.append(f'<linearGradient id="MoonHaloBase"><stop style="stop-color:#ffffff;stop-opacity:{0.5 - abs(Phase - 0.5)};" offset="0" /><stop style="stop-color:#e7e7e5;stop-opacity:0;" offset="1" /></linearGradient>')
@@ -70,7 +69,4 @@ def DrawMoon(Center, Angle, MoonRadius, HaloRadius, Phase):
 	Result.append(DrawMoonShadow(Center, Angle, MoonRadius * 1.01, Phase))
 	for Point in range(6): Result.append(DrawMoonLip(Center, Point, Angle, HaloRadius))
 	Result.append('</g>')
-	Result.append('</svg>')
 	return ''.join(Result)
-
-with open('test.svg', 'wt') as f: f.write(DrawMoon(MakePoint(200, 200), 0, 50, 200, 0.5))
