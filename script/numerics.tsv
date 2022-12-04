@@ -1,16 +1,16 @@
-	0	0	1	1	1	1	2	2	3	3	4	4
-1	один	one	одиннадцать	eleven	десять	ten	сто		тысяча		тма
-2	два	two	двенадцать	twelve	двадцать	twenty	двести		две тысячи		двутма
-3	три	three	тринадцать	thirteen	тридцать	thirty	триста		три тысячи		тритмы
-4	четыре	four	четырнадцать	fourteen	сорок	fourty	четыреста		четыре тысячи		четыретмы
-5	пять	five	пятнадцать	fifteen	пятьдесят	fifty	пятьсот		пять тысяч		пятьтем
-6	шесть	six	шестнадцать	sixteen	шестьдесят	sixty	шестьсот		шесть тысяч		шестьтем
-7	семь	seven	семнадцать	seventeen	семьдесят	seventy	семьсот		семь тысяч		семьтем
-8	восемь	eight	восемнадцать	eighteen	восемьдесят	eighty	восемьсот		восемь тысяч		восемьтем
-9	девять	nine	девятнадцать	nineteen	девятьдесят	ninety	девятьсот		девять тысяч		девятьтем
-A	палять	feen	пальнадцать	feenteen	палятьдесят	feenty	палятьсот		палять тысяч		палятьтем
-B	умь	cleven	умьнадцать	cleventeen	умьдесят	cleventy	умьсот		умь тысяч		умьтем
-C	дюжень	dozen	дюженнадцать	dozenteen	дюженьдесят	dozenty	дюженьсот		дюжень тысяч		дюженьтем
-D	змеень	dryke	змееннадцать	drykesteen	змееньдесят	dricty	змееньсот		змеень тысяч		змееньтем
-E	леть	flix	летнадцать	flixteen	летьдесят	flixty	летьсот		леть тысяч		летьтем
-F	сколеть	gly	сколетнадцать	glyteen	сколяносто	glity	сколетьсот		сколеть тысяч		сколетьтем
+index	[0, "ru"]	[0, "en"]	[10, "ru"]	[10, "en"]	[1, "ru"]	[1, "en"]	[2, "ru"]	[2, "en"]	[3, "ru"]	[3, "en"]	[4, "ru"]	[4, "en"] 
+1	один	one	одиннадцать	eleven	десять	ten	сто	one hundred	тысяча	one thousand	тма	one tamend
+2	два	two	двенадцать	twelve	двадцать	twenty	двести	two hundred	две тысячи	two thousand	двутма	two tamend
+3	три	three	тринадцать	thirteen	тридцать	thirty	триста	three hundred	три тысячи	three thousand	тритмы	three tamend
+4	четыре	four	четырнадцать	fourteen	сорок	fourty	четыреста	four hundred	четыре тысячи	four thousand	четыретмы	four tamend
+5	пять	five	пятнадцать	fifteen	пятьдесят	fifty	пятьсот	five hundred	пять тысяч	five thousand	пятьтем	five tamend
+6	шесть	six	шестнадцать	sixteen	шестьдесят	sixty	шестьсот	six hundred	шесть тысяч	six thousand	шестьтем	six tamend
+7	семь	seven	семнадцать	seventeen	семьдесят	seventy	семьсот	seven hundred	семь тысяч	seven thousand	семьтем	seven tamend
+8	восемь	eight	восемнадцать	eighteen	восемьдесят	eighty	восемьсот	eight hundred	восемь тысяч	eight thousand	восемьтем	eight tamend
+9	девять	nine	девятнадцать	nineteen	девятьдесят	ninety	девятьсот	nine hundred	девять тысяч	nine thousand	девятьтем	nine tamend
+A	палять	feen	пальнадцать	feenteen	палятьдесят	feenty	палятьсот	feen hundred	палять тысяч	feen thousand	палятьтем	feen tamend
+B	умь	cleven	умьнадцать	cleventeen	умьдесят	cleventy	умьсот	cleven hundred	умь тысяч	cleven thousand	умьтем	cleven tamend
+C	дюжень	dozen	дюженнадцать	dozenteen	дюженьдесят	dozenty	дюженьсот	dozen hundred	дюжень тысяч	dozen thousand	дюженьтем	dozen tamend
+D	змеень	dryke	змееннадцать	drykesteen	змееньдесят	dricty	змееньсот	dryke hundred	змеень тысяч	dryke thousand	змееньтем	dryke tamend
+E	леть	flix	летнадцать	flixteen	летьдесят	flixty	летьсот	flix hundred	леть тысяч	flix thousand	летьтем	flix tamend
+F	сколеть	gly	сколетнадцать	glyteen	сколяносто	glity	сколетьсот	gly hundred	сколеть тысяч	gly thousand	сколетьтем	gly tamend

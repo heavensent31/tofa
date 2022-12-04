@@ -1,8 +1,5 @@
 import sys
 
-# cat $raw | openssl aes-256-cbc -pbkdf2 | xxd -p -
-# cat $cst | xxd -r -p - | openssl aes-256-cbc -d -pbkdf2
-
 class TraRenkchalCalendar:
 	def __init__(self, Suns):
 		self.__suns = Suns
