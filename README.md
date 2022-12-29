@@ -20,3 +20,8 @@ Fanfics by Emil Viesná (aka regnveig).
 | snap | The Snake Pit | Змеиная яма | ![Size](https://badge-size.herokuapp.com/regnveig/tofa/master/tex/snap.tex?label=%20&style=flat-square) | ![2021/11/11](https://img.shields.io/date/1636588800?label=&style=flat-square) | ![not yet](https://img.shields.io/badge/-not%20yet-yellow?style=flat-square) | [![CC BY-NC-ND 4.0](https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png)](http://creativecommons.org/licenses/by-nc-nd/4.0) |
 | bsrk | BSRK | BSRK | ![Size](https://badge-size.herokuapp.com/regnveig/tofa/master/fanfic/bsrk.tex?label=%20&style=flat-square) | ![2022/03/11](https://img.shields.io/date/1646984700?label=&style=flat-square) | ![not yet](https://img.shields.io/badge/-not%20yet-yellow?style=flat-square) | [![CC0](https://licensebuttons.net/p/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0) |
 | udgd | The Underground | Подземье | ![Size](https://badge-size.herokuapp.com/regnveig/tofa/master/tex/udgd.tex?label=%20&style=flat-square) | ![2022/08/15](https://img.shields.io/date/1660539600?label=&style=flat-square) | ![not yet](https://img.shields.io/badge/-not%20yet-yellow?style=flat-square) | [![CC BY-NC-ND 4.0](https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png)](http://creativecommons.org/licenses/by-nc-nd/4.0) |
+
+Alternative repos:
+
+* [GitHub](https://github.com/regnveig/tofa)
+* [0xACAB](https://0xacab.org/regnveig/tofa)
