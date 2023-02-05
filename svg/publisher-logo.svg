@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="30.268318mm"
+   height="9.9214954mm"
+   viewBox="0 0 30.268319 9.9214955"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="publisher-logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="1.1474186"
+     inkscape:cx="9.1509756"
+     inkscape:cy="95.867364"
+     inkscape:window-width="1600"
+     inkscape:window-height="827"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Слой 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(36.170068,-37.859088)">
+    <path
+       style="fill:#6f916f;stroke-width:0.0700069"
+       d="m -17.786468,45.218549 c 0.701299,-0.199389 1.446663,-0.490383 1.948611,-0.95245 1.583638,-1.457818 1.357505,-4.007159 -0.496878,-4.943214 -0.724661,-0.365793 -1.572024,-0.413317 -2.256811,-0.05018 -0.758713,0.402357 -1.221125,1.102396 -1.223195,1.843574 -0.0015,0.553647 0.09525,0.878181 0.36841,1.235589 0.7033,0.920224 2.141459,0.785385 2.432103,-0.228028 0.117864,-0.410967 -0.189242,-0.972556 -0.531845,-0.972556 -0.226014,0 -0.359052,0.18605 -0.253683,0.354768 0.152394,0.244022 0.100591,0.415224 -0.158381,0.52343 -0.44672,0.18665 -0.875824,-0.147081 -0.931287,-0.724308 -0.09699,-1.00948 1.126025,-1.657943 2.145761,-1.137712 0.592843,0.302444 0.987395,1.003286 0.987395,1.753896 0,0.573091 -0.170493,0.995577 -0.584639,1.448716 -1.103729,1.207656 -3.011257,1.133771 -4.053726,-0.228276 -0.955385,-1.248261 -0.79653,-2.829584 0.0074,-3.901071 0.54,-0.719732 1.408045,-1.246933 2.196026,-1.344519 l 0.299746,-0.03712 -0.385039,0.140906 c -0.65602,0.240073 -0.986646,0.439483 -1.393252,0.840303 -0.42252,0.416506 -0.807077,1.106068 -0.878868,1.575917 l -0.04279,0.280026 0.114025,-0.309494 c 0.4422,-1.200273 1.440643,-1.931355 2.732859,-2.001059 1.275565,-0.06881 2.509079,0.64726 3.075139,1.880272 0.348356,0.758804 0.429839,1.355554 0.250492,2.212244 -0.272781,1.303004 -1.359846,2.373941 -2.684276,2.698089 -0.319063,0.07811 -0.509641,0.06957 -0.683285,0.04225 z"
+       id="path1689"
+       sodipodi:nodetypes="csssssssssssssssscssscsssssc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:8.41106px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.210277"
+       x="-36.268635"
+       y="44.133232"
+       id="text5994"><tspan
+         sodipodi:role="line"
+         id="tspan5992"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';fill:#000000;fill-opacity:1;stroke-width:0.210277"
+         x="-36.268635"
+         y="44.133232">tsun    mi</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.65272px;line-height:1.25;font-family:sans-serif;fill:#1c241c;fill-opacity:1;stroke:none;stroke-width:0.0663185"
+       x="-36.292934"
+       y="47.368687"
+       id="text42615-3"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Light';fill:#1c241c;fill-opacity:1;stroke-width:0.0663185"
+         x="-36.292934"
+         y="47.368687"
+         id="tspan42617-7">свободное издательство</tspan></text>
+  </g>
+</svg>
