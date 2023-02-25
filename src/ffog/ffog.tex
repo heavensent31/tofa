@@ -1,58 +1,55 @@
-%\documentclass[a5paper,12pt,fleqn]{extbook}\usepackage{polyglossia}\setdefaultlanguage[babelshorthands=true]{russian}\setotherlanguage{english}\defaultfontfeatures{Ligatures=TeX,Mapping=tex-text}\usepackage{xcolor}\newcommand{\ml}[3]{#2}
 
-\documentclass[a5paper,12pt,fleqn]{extbook}\usepackage{cooltooltips}\usepackage{polyglossia}\setdefaultlanguage[babelshorthands=true]{russian}\setotherlanguage{english}\defaultfontfeatures{Ligatures=TeX,Mapping=tex-text} \usepackage{xcolor}\definecolor{lightgray}{HTML}{bbbbbb}\color{lightgray}\newcommand{\ml}[3]{\textenglish{\textcolor{black}{#3}}}
+% ------ METADATA ------
+\newcommand{\bookauthor}{\ml{$0$}{Эмиль~Весна}{Emil~Viesn\'{a}}}
+\newcommand{\booktitle}{\ml{$0$}{ЦВЕТЫ~ДЛЯ~БАБУШКИ}{Flowers~for~the~Old~Woman}}
+\newcommand{\bookstarted}{19.08.2017}
+\newcommand{\bookfinished}{not yet}
+% ------ METADATA ------
 
-% ----------------------
+% ----- HYPHENATION -----
+\usepackage{hyphenat}
+% ----- HYPHENATION -----
 
+% ----- GEOMETRY -----
+\usepackage[left=1.5cm,right=1.5cm,top=2cm,bottom=2cm,bindingoffset=0.5cm]{geometry}
+% ----- GEOMETRY -----
+
+% ----- INCLUDE PDF AS PAGES -----
 \usepackage{pdfpages}
-\usepackage{amsmath,amssymb,amsfonts,xltxtra,microtype,graphicx,textcomp}
-\usepackage{changepage}
-\usepackage{svg}
+% ----- INCLUDE PDF AS PAGES -----
 
-% ------ GEOMETRY ------
+% ----- TOC CONFIG -----
+\setcounter{tocdepth}{0}
+\usepackage{titletoc}
+\titlecontents{chapter}[0pt]{\large}%above code
+{\MakeUppercase{\chaptername\~\thecontentslabel}. }
+{}%numberless chapter%
+{\mdseries\titlerule*[0.75em]{.}\thecontentspage}
+% ----- TOC CONFIG -----
 
-\usepackage[twoside,left=1.5cm,right=1.5cm,top=2cm,bottom=2cm,bindingoffset=0.5cm]{geometry}
+% ----- DROPPING CAP -----
+\usepackage{type1cm,lettrine}
+% ----- DROPPING CAP -----
 
-% ------ FONT ------
-
-%\usepackage{ebgaramond}
+% ----- FONTS -----
+\renewcommand{\baselinestretch}{1.2}
 \setmainfont{Linux Libertine}
 \setmonofont{Hack}
 \newfontfamily\vkfont{Roboto}
 \newfontfamily\oldfont{TrixieCyr-Pre2}
-\definecolor{darkblue}{HTML}{003153}
-\definecolor{VKLink}{HTML}{3F72B0}
-%
+% ----- FONTS -----
+
+% ------ HYPERLINKS ------
+\usepackage{hyperref}
+\definecolor{LinkColor}{HTML}{003153}
+\hypersetup{colorlinks=true, linkcolor=LinkColor, citecolor=LinkColor, filecolor=LinkColor, urlcolor=LinkColor}
 % ------ HYPERLINKS ------
 
-\usepackage{hyperref}
-\hypersetup{colorlinks=true, linkcolor=darkblue, citecolor=darkblue, filecolor=darkblue, urlcolor=darkblue}
-
-% ------ EPIGRAPH ------
-
-\usepackage{epigraph}
-\renewcommand{\epigraphsize}{\footnotesize}
-\epigraphrule=0pt
-\epigraphwidth=8cm
-
-\usepackage{etoolbox}
-\AtBeginEnvironment{quote}{\itshape}
-\makeatletter
-\newlength\episourceskip
-\pretocmd{\@episource}{\em}{}{}
-\apptocmd{\@episource}{\em}{}{}
-\patchcmd{\epigraph}{\@episource{#1}\\}{\@episource{#1}\\[\episourceskip]}{}{}
-\makeatother
-
-% ------ METADATA ------
-
-\newcommand{\tofaauthor}{\ml{$0$}{Эмиль~Весна}{Emil~Viesn\'{a}}}
-\newcommand{\tofatitle}{\ml{$0$}{ЦВЕТЫ~ДЛЯ~БАБУШКИ}{Flowers~for~the~Old~Woman}}
-\newcommand{\tofastarted}{19.08.2017}
-\newcommand{\UDK}{82-311.9}
-\newcommand{\BBK}{84стд1-445.12}
-\newcommand{\AuthorCode}{В38}
-\newcommand{\BookVersion}{v0.9.0-alpha}
+% ------ VKONTAKTE MESSAGES ------
+\usepackage{changepage}
+\definecolor{VkBlue}{HTML}{3F72B0}
+\newcommand{\VKmessage}[2]{\begin{adjustwidth}{1cm}{1cm}{\vkfont\footnotesize\textcolor{VkBlue}{\textbf{#1}}\\#2}\end{adjustwidth}\hspace{0.1em}}
+% ------ VKONTAKTE MESSAGES ------
 
 % ------ FANCY PAGE STYLE ------
 \setlength{\headheight}{15pt}
@@ -60,8 +57,8 @@
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhead[LE,RO]{\thepage}
-\fancyhead[LO]{{\small\textsc{\tofatitle}}}
-\fancyhead[RE]{{\small\textsc{\tofaauthor}}}
+\fancyhead[LO]{{\small\textsc{\booktitle}}}
+\fancyhead[RE]{{\small\textsc{\bookauthor}}}
 \fancyfoot{}
 \fancypagestyle{plain}
 {\fancyhead{}
@@ -79,39 +76,44 @@
 \newcommand{\theterm}[3]{\textbf{\hypertarget{#1}{#2}} --- #3}
 \newcommand{\thesynonim}[3]{\textbf{#2} --- см. \textit{\hyperlink{#1}{#3}}.}
 \newcommand{\theorigin}[3]{\textit{#1:} #2 --- #3}
-\newcommand{\VKmessage}[1]{\begin{adjustwidth}{1cm}{1cm}{\vkfont \footnotesize \textcolor{VKLink}{\textbf{Сашхен}}\\#1}\end{adjustwidth}\hspace{0.1em}}
+
 \newcommand{\oldtyping}[1]{{\hspace{0.1em}\oldfont\small{#1}\par}\hspace{0.1em}}
 
 % ------ NAMES ------
 
-\newcommand{\Rita}{R\'{\i}ta}
-\newcommand{\Varenik}{Var\'enik}
+\newcommand{\gopnik}{g\'opnik}
+\newcommand{\Ilgiza}{Ilgiz\'a}
+\newcommand{\Izolda}{Iz\'olda}
+\newcommand{\Kalgin}{Kalg\'{\i}n}
 \newcommand{\Kirya}{K\'{\i}rya}
+\newcommand{\Koltsovo}{Kolts\'ovo}
+\newcommand{\MaksimOrlov}{Maks\'{\i}m Orl\'ov}
+\newcommand{\militsioner}{militsion\'er}
+\newcommand{\militsiya}{mil\'{\i}tsiya}
+\newcommand{\Preobrazhenskaya}{Preobrazh\'enskaya}
+\newcommand{\Rita}{R\'{\i}ta}
+\newcommand{\Sasha}{S\'asha}
+\newcommand{\Shenkerman}{Shenkerm\'an}
+\newcommand{\Shishkin}{Sh\'{\i}shkin}
+\newcommand{\silovik}{silov\'{\i}k}
+\newcommand{\tovarisch}{tov\'arisch}
+\newcommand{\Valera}{Val\'era}
+\newcommand{\Varenik}{Var\'enik}
 \newcommand{\Veronika}{Veron\'{\i}ka}
-\newcommand{\Volodya}{Vol\'odya}
+\newcommand{\Vladimir}{Vlad\'{\i}mir}
+\newcommand{\Vladislavovna}{Vladisl\'avovna}
 \newcommand{\Volodka}{Vol\'odka}
 \newcommand{\Volod}{Vol\'od}
-\newcommand{\Shenkerman}{Shenkerm\'an}
-\newcommand{\Sasha}{S\'asha}
-\newcommand{\MaksimOrlov}{Maks\'{\i}m Orl\'ov}
-\newcommand{\gopnik}{g\'opnik}
-\newcommand{\silovik}{silov\'{\i}k}
-\newcommand{\Izolda}{Iz\'olda}
-\newcommand{\Ilgiza}{Ilgiz\'a}
-\newcommand{\Preobrazhenskaya}{Preobrazh\'enskaya}
-\newcommand{\Yelena}{Yel\'ena}
-\newcommand{\Vladislavovna}{Vladisl\'avovna}
-\newcommand{\Kalgin}{Kalg\'{\i}n}
-\newcommand{\Shishkin}{Sh\'{\i}shkin}
+\newcommand{\Volodya}{Vol\'odya}
 \newcommand{\Yasha}{Y\'asha}
+\newcommand{\Yelena}{Yel\'ena}
 \begin{document}
  
 % ----- FRONT COVER -----
 % font: https://fonts-online.ru/fonts/red-banner
 % TODO affiliate
-\includepdf[pages={1}]{../images/cover_FlowersForTheOldWoman_en.pdf}
-\newpage
-\thispagestyle{plain}
+\includepdf[pages={1}]{\coverfrontfilename}
+
 % ----- FRONT COVER -----
 
 % ------ TITLE PAGE ------
@@ -120,72 +122,13 @@
 \centering
 {~\par}
 \vspace{0.25\textheight}
-{\LARGE\tofaauthor\par}
+{\LARGE\bookauthor\par}
 \vspace{1.3cm}
-{\Huge\textbf{\tofatitle}\par}
+{\Huge\textbf{\booktitle}\par}
 \vfill
-{\includegraphics[width=6em]{../images/publisher-logo.pdf}\par}
+{\includegraphics[width=6em]{\publisherlogofilename}\par}
 }
 \end{titlepage}
-
-\newpage
-
-% ----- LIBRARY PAGE -----
-\thispagestyle{plain}
-
-% ----- CODES BLOCK -----
-\begin{minipage}[t]{2em}УДК\\ББК\\~\end{minipage}
-\begin{minipage}[t]{0.8\textwidth}\UDK\\\BBK\\\AuthorCode \end{minipage}
-% ----- CODES BLOCK -----
-
-\vfill
-
-{\centering\includegraphics[width=0.25\textwidth]{../images/qr-lorem-ipsum.pdf}\par}
-\vspace{0.5em}
-{\centering\small О книге и авторе\par}
-\vfill
-
-% ----- AUTHOR CODE -----
-\begin{minipage}[t]{0.05\textwidth}~\\\AuthorCode \end{minipage}
-% ----- AUTHOR CODE -----
-\begin{minipage}[t]{0.9\textwidth}
-\textbf{Весна, Эмиль}
-
-~~~~Цветы для бабушки / Э. Весна. --- \BookVersion. --- Томск: Свободное издательство <<Цунами>>, 2023. --- 222 c.
-
-\vspace{1em}
-
-% ----- ANNOTATION -----
-{\small
-Россия, 2012 год.
-Валерий и Вероника "--- простая российская семья из города Новосибирска.
-Как и прочие, они пытаются построить жизнь в медленно набирающей силу политической буре, справляясь с новыми и новыми житейскими трудностями.
-Но беда не приходит одна "--- Вероника заразилась неизвестным науке вирусом, само существование которого могло поставить мир на грань катастрофы...
-\par}
-% ----- ANNOTATION -----
-
-\vspace{1em}
-
-% ----- SECOND CODES BLOCK -----
-\hfill \begin{minipage}[t]{0.35\textwidth}{\textbf{УДК~\UDK\\ББК~\BBK}\par}\end{minipage}
-% ----- SECOND CODES BLOCK -----
-
-\vspace{2em}
-
-% ----- LICENSE BLOCK -----
-{\small
-Данная книга распространяется под лицензией \textbf{CC~BY~4.0}.\\
-Подробнее: \href{https://creativecommons.org/licenses/by/4.0}{https://creativecommons.org/licenses/by/4.0}
-\par}
-% ----- LICENSE BLOCK -----
-
-\vspace{1em}
-
-% ----- LICENSE SIGNS BLOCK -----
-\includegraphics[width=2em]{../images/cc.pdf}~\includegraphics[width=2em]{../images/by.pdf}
-% ----- LICENSE SIGNS BLOCK -----
-
-\end{minipage}
 
 \newpage
 
@@ -203,21 +146,17 @@
 % ----- DISCLAIMER PAGE -----
 
 \newpage
-\thispagestyle{plain}
-~
-\newpage
 
 
 \pagestyle{fancy}
 
-\chapter{Отголосок бури}
+\chapter{\ml{$0$}{Отголосок бури}{The Echo of the Storm}}
 
-Вспомните свой самый худший кошмар.
-
+\lettrine[lines=4,slope=0pt,nindent=3pt]{В}{спомните} свой самый худший кошмар.
 Вспомнили?
 Во всех подробностях?
-
-Так вот, это ерунда.
+Отлично.
+Я не знаю, что вы увидели, но могу вас уверить: это ерунда по сравнению с царём кошмаров.
 
 Самый худший кошмар на свете выглядит достаточно безобидно.
 Кошмар ограниченного мира.
@@ -443,14 +382,22 @@
 --- ...Понимаешь, я всё делаю по правилам! --- говорил Вареник.
 --- Я выучил все эти стандартные вопросы-ответы на собеседованиях, проговорил, отработал!
 
---- Верю, --- кивнула Вероника.
---- Только вот...
+\ml{$0$}
+{--- Верю, --- кивнула Вероника.}
+{``I believe,'' \Veronika\ nodded.}
+\ml{$0$}
+{--- Только вот...}
+{``Just ...''}
 
-Она вдруг заулыбалась.
+\ml{$0$}
+{Она вдруг заулыбалась.}
+{She smiled.}
 
 --- Ну чего? --- обиделся Вареник.
 
---- Да хреновый из тебя врун, зай, --- объяснила жена.
+\ml{$0$}
+{--- Да хреновый из тебя врун, зай, --- объяснила жена.}
+{``You're a shit of a liar, hon,'' the wife explained.}
 --- Когда ты врёшь, тебя аж перекашивает всего, как будто тебе нанесли смертельную обиду.
 
 --- А, так вот как ты научилась различать, --- буркнул Вареник.
@@ -844,11 +791,17 @@
 
 --- Что скажешь? --- шепнул он другу, поделившись наблюдениями.
 
---- Бери рыжую, --- не задумываясь ответил Шенкерман.
---- Счастливые стригутся коротко.
+\ml{$0$}
+{--- Бери рыжую, --- не задумываясь ответил Шенкерман.}
+{``Take the ginger,'' \Shenkerman\  answered without thought.}
+\ml{$0$}
+{--- Счастливые стригутся коротко.}
+{``Happy women cut their hair short.''}
 
 В первый же год отношений Вероника отпустила кудри.
-Оказалось --- ждала нужного человека.
+\ml{$0$}
+{Оказалось --- ждала нужного человека.}
+{It turned out that she's been waiting for the man.}
 
 \asterism
 
@@ -937,12 +890,22 @@
 
 --- Ну да, милые.
 
---- Ясно.
-Развод и девичья фамилия.
+\ml{$0$}
+{--- Ясно.}
+{``I see.}
+\ml{$0$}
+{Развод и девичья фамилия.}
+{Divorce and maiden name.''}
 
-Периодически Вареник и Вероника играли в ревность.
-Но без души, без чувства.
-После нескольких лет совместных скитаний, безденежья, ссор с родственниками и друзьями настоящая ревность кажется чем-то ребяческим и глупым.
+\ml{$0$}
+{Периодически Вареник и Вероника играли в ревность.}
+{Sometimes \Varenik\ and \Veronika\ played jealousy.}
+\ml{$0$}
+{Но без души, без чувства.}
+{But with no soul, no feeling.}
+\ml{$0$}
+{После нескольких лет совместных скитаний, безденежья, ссор с родственниками и друзьями настоящая ревность кажется чем-то ребяческим и глупым.}
+{After several years of wandering together, lack of money, quarrels with relatives and friends, a true jealousy seems childish and silly.}
 Примерно как новомодные диеты.
 
 \asterism
@@ -1008,9 +971,9 @@
 
 Вареник поперхнулся и сменил тему.
 
-\chapter{Громоотвод}
+\chapter{\ml{$0$}{Громоотвод}{The Lightning Rod}}
 
-Существует забавная теория о громоотводах.
+\lettrine[lines=4,slope=0pt,nindent=3pt]{С}{уществует} забавная теория о громоотводах.
 У человечества есть громоотводы ненависти, к коим, безусловно, любил относить себя Шенкерман --- всякий раз, когда его называли <<жидопидарасом>>, что случалось явно чаще честных президенстких выборов в России.
 Вареник скептически относился к словам приятеля, но в существование громоотвода грусти поверил бы без лишних слов.
 Одним из них была Вероника, и судя по объёму грусти, который она успешно утилизировала, Земля не утопала в печали благодаря не более чем десяти столпам.
@@ -1525,9 +1488,15 @@
 Дома-<<пустышки>>, поросшие бурьяном бетонные плиты на дорогах, отсутствие неоновых вывесок и вообще какого-либо освещения.
 Отсутствие прохожих, наконец.
 
-Подобное запустение было чем-то из ряда вон выходящим, даже для России.
-Этот город мог существовать на Курилах, в якутской тайге или ином Богом забытом месте.
-Но не в центре Новосибирской области.
+\ml{$0$}
+{Подобное запустение было чем-то из ряда вон выходящим, даже для России.}
+{Desolation like that was something out of the ordinary, even for Russia.}
+\ml{$0$}
+{Этот город мог существовать на Курилах, в якутской тайге или ином Богом забытом месте.}
+{This town could exist somewhere in Kur\'{\i}le, Sakh\'a taig\'a, or other God forsaken place.}
+\ml{$0$}
+{Но не в центре Новосибирской области.}
+{But not in the heart of Novosib\'{\i}rsk \'Oblast.}
 
 Википедия лаконично сообщила Шенкерману, что Зеленообск --- некогда закрытый, а ныне заброшенный город в Новосибирской области, который планировали превратить в <<Академгородок для военных>>.
 Вот только что-то не срослось, и строительство приостановили.
@@ -2478,7 +2447,7 @@ Cancel.
 Так вот, именно сегодня, приехав домой и сварив для жены простенький суп, Вареник удалил фото Марьяны.
 Насовсем.
 
-\chapter{Узы крови}
+\chapter{\ml{$0$}{Узы крови}{Bonds of Blood}}
 
 \textspace
 
@@ -3266,33 +3235,33 @@ Cancel.
 
 \hspace{0.2em}
 
-\VKmessage{они пытаються тебя развести дарлинг}
+\VKmessage{Сашхен}{они пытаються тебя развести дарлинг}
 
 --- подтвердила Саша. ---
 
 \hspace{0.2em}
 
-\VKmessage{подать в суд это как на всю страну сказать че у тя в фирме твориться}
+\VKmessage{Сашхен}{подать в суд это как на всю страну сказать че у тя в фирме твориться}
 
-\VKmessage{не ссы}
+\VKmessage{Сашхен}{не ссы}
 
-\VKmessage{не нужен им такой гемар изза полу ляма}
+\VKmessage{Сашхен}{не нужен им такой гемар изза полу ляма}
 
-\VKmessage{ты у них двже сам можешь отжать сумму ели есть желание ;))}
+\VKmessage{Сашхен}{ты у них двже сам можешь отжать сумму ели есть желание ;))}
 
 Желания у Шенкермана не было.
 
 \hspace{0.2em}
 
-\VKmessage{ху1 с ними}
+\VKmessage{Сашхен}{ху1 с ними}
 
-\VKmessage{согласна)))}
+\VKmessage{Сашхен}{согласна)))}
 
-\VKmessage{крч будут проблемы мой номер в геленджике знаешь}
+\VKmessage{Сашхен}{крч будут проблемы мой номер в геленджике знаешь}
 
-\VKmessage{звони сразу систер ща в прокуратуре по дзержинскому раену нск}
+\VKmessage{Сашхен}{звони сразу систер ща в прокуратуре по дзержинскому раену нск}
 
-\VKmessage{если надо сама приеду}
+\VKmessage{Сашхен}{если надо сама приеду}
 
 <<Добро иногда возвращается>>.
 
@@ -3472,7 +3441,7 @@ Cancel.
 Глядя на скорбное лицо Саши, Шенкерман в тот момент понял окончательно, что им не суждено быть вместе.
 Между ними, маскируясь под деревянный пол общаги, лежала непреодолимая пропасть.
 
-\chapter{Гранфаллон}
+\chapter{\ml{$0$}{Гранфаллон}{Granfalloon}}
 
 \subsection{Встреча выпускников}
 
@@ -4315,6 +4284,7 @@ Cancel.
 
 --- Пробейте по пальцам, Николай, --- посоветовал басовитый.
 --- По виду товарищ интеллигентный, за границу наверняка летал, пальцы на него должны быть.
+Откажется сотрудничать --- вкратце объясните ему перспективы.
 Мужики здесь останутся, если будут проблемы --- доверьте этого товарища им.
 По поводу результатов отзваниваетесь сначала мне, и только потом вашему непосредственному начальнику.
 Вот номер.
@@ -4455,20 +4425,47 @@ Cancel.
 
 --- Откуда вообще эта информация?
 
---- Из открытых источников --- форумы, статьи в интернете...
+\ml{$0$}
+{--- Из открытых источников.}
+{``Public sources.''}
 
---- И твоя версия произошедшего?
+\ml{$0$}
+{--- По-русски выражайся.}
+{``Speak Russian.''}
 
---- Врач, который там работал, писал в интернете, что это может быть новый, очень опасный синтетический наркотик.
+\ml{$0$}
+{--- Открытые источники, то есть газеты, журналы, статьи в интернете, форумы...}
+{``Open sources, for example, newspapers, magazines, articles on the Internet, forums ....''}
+
+\ml{$0$}
+{--- То есть писанина журналистов и прочих безработных бездельников.}
+{``In other words, a scribbling of journalists and other unemployed idlers.}
+И что ты надумал, почитав эти... источники?
+
+--- Врач, который работал на Владимировской, писал в интернете, что это может быть новый, очень опасный синтетический наркотик.
+Я узнавал про этого врача, он действительно существует, и...
 
 --- Я тебя понял.
 Тебе удалось что-то узнать?
+Я имею в виду, нормальным способом, а не из интернета.
 
 --- В ходе расследования я вышел на место, где, возможно, производится и откуда реализуется наркотик.
 Это Зеленообск --- небольшой посёлок под Новосибирском, который...
 
 --- Допустим, --- Ондар неожиданно положил ручку.
---- А теперь объясни: тебе-то какое дело до этих торчков?
+--- Владимир, на будущее, если оно у тебя будет: такими делами должна заниматься прокуратура.
+В прокуратуре есть компетентные люди, которые...
+
+--- Которые знают, под кого можно копать, а под кого нет?
+
+\ml{$0$}
+{--- Именно, Владимир.}
+{``Exactly, \Vladimir.}
+\ml{$0$}
+{В точку.}
+{Good point.}
+Это та грань, которая отделяет хорошего следователя от плохого, и хорошего журналиста от журналиста, который сидит за шпионаж.
+А теперь объясни: тебе какое дело до этого наркотика, до этих торчков?
 Ты ведь не журналист.
 
 --- У меня друг умер от передоза.
@@ -4521,7 +4518,9 @@ Cancel.
 
 --- Да насрать на твоё расследование, --- перебил Ондар.
 --- Того, что ты заинтересовался необычными смертями, для суда вполне достаточно.
-Меньше знаешь --- меньше сидишь.
+\ml{$0$}
+{Меньше знаешь --- меньше сидишь.}
+{The less you know, the less you serve in prison.}
 Речь сейчас о твоих мотивах и намерениях.
 Смахивает, что ты под кого-то копал.
 Первая несостыковка --- ты подделал документы, совершил уголовно наказуемое преступление, и это не похоже на попытку почтить память друга.
@@ -4555,12 +4554,20 @@ Cancel.
 Шенкерман вдруг снова почувствовал прилив вдохновения.
 Он вздохнул в притворном смирении и опустил голову.
 
---- Можно мне воды?
+\ml{$0$}
+{--- Можно мне воды?}
+{``Can I have some water?''}
 
---- Может быть, ещё пятизвёздочного коньяка?
-Ты где-то видишь здесь кулер?
+\ml{$0$}
+{--- Может быть, ещё пятизвёздочного армянского коньяка?}
+{``A five-star Armenian cognac, perhaps?}
+\ml{$0$}
+{Ты где-то видишь здесь кулер?}
+{Do you see a cooler somewhere?''}
 
---- Нигде.
+\ml{$0$}
+{--- Нигде.}
+{``I don't.''}
 
 Шенкерман снова опустил голову.
 
@@ -4590,20 +4597,34 @@ Cancel.
 --- Возможно, добавив к макету фото, надписи и печати.
 
 --- Я не собираюсь помогать вам шить на меня дело.
-Пятьдесят первая статья.
+\ml{$0$}
+{Пятьдесят первая статья.}
+{Article 51\footnote{Article 51 of the Russian Constitution reads: no one shall be obliged to give evidence incriminating themselves, a husband or wife or close relatives the range of whom is determined by the federal law.}.''}
 
---- Владимир, ты уверен?
+\ml{$0$}
+{--- Владимир, ты уверен?}
+{``\Vladimir, are you sure?''}
 
---- Пятьдесят первая статья.
+\ml{$0$}
+{Пятьдесят первая статья.}
+{``Article 51.''}
 
---- Владимир, двадцать лет.
-Колония строгого режима.
+\ml{$0$}
+{--- Владимир, двадцать лет.}
+{``\Vladimir, twenty years.}
+\ml{$0$}
+{Колония строгого режима.}
+{Strict regime colony.''}
 
---- Пятьдесят первая статья.
+\ml{$0$}
+{Пятьдесят первая статья.}
+{``Article 51.''}
 
 Ондар вздохнул, откинулся в кресле и набрал номер на мобильном.
 
---- Уведите.
+\ml{$0$}
+{--- Уведите.}
+{``Take him back.''}
 
 \subsection{Детектив}
 
@@ -4621,15 +4642,31 @@ Cancel.
 Снаружи камеры раздались шаги.
 
 Шенкерман вдруг вспомнил момент из старого детективного сериала.
-Там задержанного якобы избили плюшевым крокодилом до разрыва мочевого пузыря.
-Шенкерман хорошо помнил, как смеялись его мать, его дядя, его сестра, он помнил даже свой собственный смех.
-Реальность вдруг превратилась в телепередачу.
-Как и тогда, открылась дверь камеры, и вошёл человек в форме.
-Но в его руках не было плюшевого крокодила.
+\ml{$0$}
+{Там задержанного якобы избили плюшевым крокодилом до разрыва мочевого пузыря.}
+{The detainee was ostensibly beaten to a bladder rupture with a plush crocodile.}
+\ml{$0$}
+{Шенкерман хорошо помнил, как смеялись его мать, его дядя, его сестра, он помнил даже свой собственный смех.}
+{\Shenkerman\ remembered well how his mother laughed, and his uncle, and his sister, he even could recall his own laugh.}
+\ml{$0$}
+{Реальность вдруг превратилась в телепередачу.}
+{Reality was suddenly turned into a TV show.}
+\ml{$0$}
+{Как и тогда, открылась дверь камеры, и вошёл человек в форме.}
+{As then, the cell door opened, and a man in uniform came in.}
+\ml{$0$}
+{Но в его руках не было плюшевого крокодила.}
+{But there wasn't a plush crocodile in his hands.}
 
-Шенкерман понял, что заплатил бы любую цену за то, чтобы передача закончилась.
-Прекратить эту проклятую детективную комедию, выключить телевизор, разбить его на осколки.
-Но пульт был у кого-то другого, а мать, сестра и дядя продолжали безмолвно хохотать в его голове...
+\ml{$0$}
+{Шенкерман понял, что заплатил бы любую цену за то, чтобы передача закончилась.}
+{\Shenkerman\ realized that he would pay any price to end the show.}
+\ml{$0$}
+{Прекратить эту проклятую детективную комедию, выключить телевизор, разбить его на осколки.}
+{To cease this bloody detective comedy, to turn off the TV, to smash it to pieces.}
+\ml{$0$}
+{Но пульт был у кого-то другого, а мать, сестра и дядя продолжали безмолвно хохотать в его голове...}
+{But the TV remote control was kept by someone else, and his mother, uncle, and sister were silently laughing inside his head ....}
 
 В следующий миг он ощутил во рту привкус крови и бетонного пола.
 
@@ -4734,7 +4771,9 @@ Cancel.
 
 --- Валерий Николаевич Сафронов, тысяча девятьсот восемьдесят пятого года рождения, рядовой запаса.
 
---- Не нужно ёрничать, товарищ милиционер.
+\ml{$0$}
+{--- Не нужно ёрничать, товарищ милиционер.}
+{``You don't have to behave defiantly, \tovarisch\ \militsioner.''}
 
 --- Я не из милиции и не собираюсь устраивать вам допрос.
 
@@ -4812,8 +4851,12 @@ Cancel.
 --- Достаточно, --- ответил Вареник, поняв наконец, что неправильный ответ может стоить ему жизни.
 --- Моя жена, пара её коллег, её подруга, и мой друг, который курирует расследование.
 
---- Вот как.
-Твой друг из милиции?
+\ml{$0$}
+{--- Вот как.}
+{``I see.}
+\ml{$0$}
+{Твой друг из милиции?}
+{Does your friend work in \militsiya?''}
 
 --- Я не собираюсь ничего обнародовать, --- предупредил Вареник дальнейшие расспросы.
 --- Мне нужно просто вылечить жену.
@@ -4828,17 +4871,24 @@ Cancel.
 Может быть, вы слышали о <<Векторе>>?
 
 --- Как ни странно, слышала, --- неопределённым тоном произнесла Зинаида Павловна.
---- Кольцово?
+\ml{$0$}
+{--- Кольцово?}
+{``\Koltsovo?''}
 
 Вареник кивнул.
 
 --- Вот как.
 Значит, есть надежда, что она найдёт лекарство.
 
---- Я бы на это не рассчитывал, --- чистосердечно сказал Вареник.
 \ml{$0$}
-{--- Но если ей, и прочим заражённым, не придётся играть в <<Сумерки>> каждый месяц, я уже был бы рад.}
-{``Anyway, if she and other infected people don't have to play \textsc{Twilight} every month, I'd be happy.}
+{--- Я бы на это не рассчитывал, --- чистосердечно сказал Вареник.}
+{``I wouldn't count on it,'' \Varenik\ frankly said.}
+\ml{$0$}
+{--- Её коллеги разрабатывают лекарства десятилетиями, и ещё десятилетия требуются, чтобы лекарство появилось в аптеке через дорогу.}
+{``Her colleagues are developing drugs for decades, and it takes more decades for a new drug to appear in the pharmacy across the street.}
+\ml{$0$}
+{Но если ей, и прочим заражённым, не придётся играть в <<Сумерки>> каждый месяц, я уже был бы рад.}
+{Anyway, if she and other infected people don't have to play \textsc{Twilight} every month, I'd be happy.}
 Пригодится любая информация, которая вам известна.
 Откуда оно пошло, много ли больных...
 
@@ -4930,16 +4980,26 @@ Cancel.
 
 --- А кто, кхм, пытался выкупить территории?
 
---- А цыган какой-то, который после парада суверенитетов разбогател.
+\ml{$0$}
+{--- А цыган какой-то, который после парада суверенитетов разбогател.}
+{``A Gypsy baron, who made his fortune after the Parade of sovereignties\footnote{The Parade of sovereignties was a series of declarations of sovereignty of various degrees by the Soviet republics in the Soviet Union from 1988 to 1991.}.}
 Бандитов своих привёл, чиновника ручного, журналистов пару, автомашин нагнал как на парад.
 СВД, Беретта, три кухонных ножа и глашин опыт --- так мы их в лесочке и похоронили.
 Нина с тех пор хромает малость...
 
---- Их же искать должны были!
+\ml{$0$}
+{--- Их же искать должны были!}
+{``Someone had to look for them!''}
 
---- Никто не искал, Валера.
-Никто.
-В те времена цари без вести пропадали, что про этого \textit{nouveau riche}\footnote{Нувориш, быстро разбогатевший человек из низкого сословия (фр.)} говорить.
+\ml{$0$}
+{--- Никто не искал, Валера.}
+{``Nobody looked for them, \Valera.}
+\ml{$0$}
+{Никто.}
+{No one.}
+\ml{$0$}
+{В те времена цари без вести пропадали, что про этого \textit{nouveau riche}\footnote{Нувориш, быстро разбогатевший человек из низкого сословия (фр.)} говорить.}
+{Back then, tsars simply disappeared, what can we say about that \textit{nouveau riche}.''}
 
 \asterism
 
@@ -5039,7 +5099,7 @@ Cancel.
 Чукчи были гордым вольным народом, а стали героями анекдотов.
 Тяйшхаэрам досталось забвение.
 
-\chapter{Гнев норны}
+\chapter{\ml{$0$}{Гнев норны}{The Fury of the Norn}}
 
 \textspace
 
@@ -5087,7 +5147,7 @@ Cancel.
 
 Комнату огласили ободряющие крики.
 
---- А эта, --- Раиса Семёновна указала на Зинаиду Павловну, --- пигалица параличная, было от неё добро?
+--- А эта, --- Раиса Семёновна указала на Зинаиду Павловну, --- пигалица паралишная, было от неё добро?
 
 Комната взорвалась негодованием.
 
@@ -5101,7 +5161,9 @@ Cancel.
 --- Молодось нашу, Христом Богом данную, жгла!
 Жгла, как лампу керосинову!
 
---- Алёну убила!
+--- Клару убила!
+Ольгу убила!
+Алёну убила!
 
 Раздался оглушительный хлопок, и Вареник инстинктивно присел.
 Толпа взвизгнула и притихла.
@@ -5109,8 +5171,8 @@ Cancel.
 
 --- А теперь слушайте меня, --- сказала Зинаида Павловна в наступившей тишине.
 --- Я не причастна к смерти Алёны.
-Она спорила со мной, у неё на всё был свой ответ, но она была просто дитём.
-Да, мне приходилось принимать тяжёлые решения.
+Она спорила со мной, у неё на всё был свой ответ, но она была просто ребёнком.
+Да, мне приходилось принимать тяжёлые решения, как в случае с Кларой.
 Но не в этот раз.
 Смерть Алёны была несчастным случаем.
 
@@ -5120,6 +5182,10 @@ Cancel.
 --- Я не буду ничего доказывать.
 Хотите уйти --- уходите.
 Скажу вам напоследок лишь одно --- если Рая поминает Бога, проверяй карманы.
+
+--- Да я хотя бы людёв не убивала до смерти! --- парировала Раиса Семёновна.
+--- Пошли, девочки.
+Пусть ета паралишная гниёт до смерти в своей дыре.
 
 Толпа разделилась;
 больше двух третей ушли.
@@ -5315,7 +5381,7 @@ Cancel.
 Вареник бросил взгляд на стоявший на столике чай и аккуратно, носком кроссовка, опрокинул чашку.
 Чашка разбилась, и остатки яда впитались в прогнившие половые доски.
 
-\chapter{Изгои}
+\chapter{\ml{$0$}{Изгои}{Outcasts}}
 
 \textspace
 
@@ -5331,6 +5397,45 @@ Cancel.
 
 --- Когда поумнеете, --- сухо ответил травматолог.
 В обычной жизни это было бы хамством, но сейчас --- почти отцовская ласка.
+
+Шенкерман постоянно чувствовал себя измотанным, и всё же не мог поспать нормально.
+\ml{$0$}
+{Просыпался по два-три раза за ночь, увидев во сне неясные, размытые тени в балаклавах, услышав их смех.}
+{He woke up two or three times during the night, after seeing in a dream vague, blurred shadows in balaclavas, after hearing them laugh.}
+\ml{$0$}
+{Шенкермана не покидало ощущение, что всё это неправильно в корне.}
+{\Shenkerman\ couldn't escape the feeling that it was wrong at the root.}
+\ml{$0$}
+{Дело было не в том, что его пытали.}
+{It had nothing to do with the fact he was tortured.}
+\ml{$0$}
+{Им \emph{нравилось} его бить.}
+{They seemed to \emph{like} beating him.}
+\ml{$0$}
+{Никто не отворачивался, не извинялся перед Шенкерманом, никто не говорил <<Хватит>>.}
+{Nobody of them turned their back, nobody apologized to \Shenkerman, nobody said ``stop it''.}
+\ml{$0$}
+{Они обыденно обсуждали его тело.}
+{They were casually discussing his body.}
+\ml{$0$}
+{Они смеялись.}
+{They were laughing.}
+\ml{$0$}
+{В их глазах блестел азарт.}
+{There was excitement in their eyes.}
+И не случись у него сердечный приступ, ему бы пришлось пробыть в этом аду ещё не одну ночь.
+
+--- Чё с ним, блядь?
+
+--- Я откуда знаю, блядь?
+
+--- Симулянт ёбаный.
+Дай ему ещё.
+
+--- Блядь, нас выебут как шерсть последнюю, если он откинется!
+Ты понял, блядь?!
+
+Шенкерман снова проснулся, хватая ртом воздух и пытаясь сорвать с головы несуществующий пакет.
 
 Во вторник приходил человек в штатском.
 Был не особенно обходителен --- в ответ на вполне законное возмущение лениво ткнул в лицо Петру Алексеевичу ксиву.
@@ -5502,10 +5607,22 @@ Cancel.
 --- Настоящие друзья никуда не уйдут.
 А то, что от меня будут шарахаться --- это только плюс.
 Вирус не должен уйти дальше этой тушки.
+Вопрос лишь в том, готов ли ты быть мужем ВИЧ-инфицированной?
+Готов ли выдерживать косые взгляды, неприятные вопросы?
 
-Вареник кивнул.
+--- Практики хватает, --- криво усмехнулся Вареник.
+--- Вот что у нас за жизнь, а, Ник?
+Не понос, так золотуха.
 
---- Ты будешь изучать его?
+Вероника хихикнула.
+
+--- Знаешь, чем-то похоже на вопросы, которые при женитьбе задают, --- заметил Вареник.
+--- Мы с тобой как будто поженились второй раз.
+
+--- И я снова согласна.
+
+--- А что с вирусом?
+Ты будешь изучать его?
 
 --- Только для того, чтобы обезопасить окружающих, --- покачала головой Вероника.
 --- Он мне достаточно крови попортил.
@@ -5694,7 +5811,7 @@ Cancel.
 
 \newpage
 
-\section*{P. S.}
+\section*{P.\,S.}\addcontentsline{toc}{chapter}{P.\,S.}
 
 Семнадцать лет спустя Вероника Сафронова-Зима опубликовала в журнале Nature Genetics статью о двух ранее неизвестных механизмах старения.
 Несмотря на то, что её открытие претендовало на Нобелевскую премию по биологии, кандидатуру Вероники отклонили по политическим причинам.
@@ -5704,7 +5821,7 @@ Cancel.
 Владимир Шенкерман занялся правозащитной деятельностью и вынужден был эмигрировать в США в 2022 году, после вторжения России в Украину, когда на него было заведено уголовное дело о дискредитации армии РФ;
 позже он сделал неплохую карьеру в сфере информационной безопасности, женился на уроженке Мексики и прожил в Сиэттле всю оставшуюся жизнь.
 
-\chapter{Неразобранное}
+\chapter*{Неразобранное}
 
 \subsection{Яблоко}
 
@@ -5907,16 +6024,43 @@ Cancel.
 
 Если за вечную жизнь приходится платить тем, что сам ты сотворить не в состоянии --- это вечное рабство, а не вечная жизнь.
 
-
+% ----- TABLE OF CONTENTS -----
 \tableofcontents
-
-~
+% ----- TABLE OF CONTENTS -----
 
 \newpage
+
+% ----- LIBRARY PAGE -----
 \thispagestyle{plain}
 
 ~
 
-\includepdf[pages={1}]{../images/cover2_FlowersForTheOldWoman.pdf}
+\vfill
+
+{\centering\includegraphics[width=0.25\textwidth]{qr-lorem-ipsum.pdf}\par}
+\vspace{0.5em}
+{\centering\small О книге и авторе\par}
+\vfill
+
+
+\begin{minipage}[t]{0.9\textwidth}
+
+
+% ----- LICENSE BLOCK -----
+{\small
+Данная книга распространяется под лицензией \textbf{CC~BY~4.0}.\\
+Подробнее: \href{https://creativecommons.org/licenses/by/4.0}{https://creativecommons.org/licenses/by/4.0}
+\par}
+% ----- LICENSE BLOCK -----
+
+\vspace{1em}
+
+% ----- LICENSE SIGNS BLOCK -----
+\includegraphics[width=2em]{cc.pdf}~\includegraphics[width=2em]{by.pdf}
+% ----- LICENSE SIGNS BLOCK -----
+
+\end{minipage}
+
+\includepdf[pages={1}]{cover_back.pdf}
 
 \end{document}
