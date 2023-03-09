@@ -12,3 +12,5 @@
 
 * [Red Banner](https://fonts-online.ru/fonts/red-banner) by Alexandra Gophmann
 * [TrixieCyr-plain](https://fonts-online.ru/fonts/trixiecyr-plain) by LettError Erik van Blokland, FontShop International (modified to Pre2: I added **Ѣ**)
+
+**Дореволюционная орфография:** [Slavenica](http://slavenica.com)
