@@ -1,4 +1,4 @@
-for image in cover_front_ru cover_front_en;
+for image in cover_front_ru cover_front_en pic_KurzWanted pic_ValdisJin pic_EagleArcana;
 do {
 	inkscape --export-text-to-path --export-filename=${image}.pdf ${image}.svg;
 } done;
