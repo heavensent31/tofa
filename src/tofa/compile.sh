@@ -1,4 +1,4 @@
-for image in pic_OldSilvaSpirits pic_DelfinaQi pic_PlantQi pic_OldLarva;
+for image in pic_OldSilvaSpirits pic_DelfinaQi pic_PlantQi pic_OldLarva pic_NamelessCreatingUniverse;
 do {
 	inkscape --export-text-to-path --export-filename=${image}.pdf ${image}.svg;
 } done;
