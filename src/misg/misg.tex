@@ -1,93 +1,106 @@
-\documentclass[a4paper,12pt,fleqn]{book}\usepackage{polyglossia}\setdefaultlanguage[babelshorthands=true]{russian}\setotherlanguage{english}\defaultfontfeatures{Ligatures=TeX,Mapping=tex-text}\usepackage{xcolor}\newcommand{\ml}[3]{#2}
-
-% \documentclass[a4paper,12pt,fleqn]{book}\usepackage{cooltooltips}\usepackage{polyglossia}\setdefaultlanguage[babelshorthands=true]{russian}\setotherlanguage{english}\defaultfontfeatures{Ligatures=TeX,Mapping=tex-text} \usepackage{xcolor}\definecolor{lightgray}{HTML}{bbbbbb}\color{lightgray}\newcommand{\ml}[3]{\textenglish{\textcolor{black}{#3}} }
-
-% ----------------------
-
-\usepackage{amsmath,amssymb,amsfonts,xltxtra,microtype,graphicx,textcomp}
-\usepackage{svg}
-
-% ------ GEOMETRY ------
-
-\usepackage[twoside,left=2.5cm,right=3cm,top=3cm,bottom=4cm,bindingoffset=0cm]{geometry}
-
-% ------ FONT ------
-
-\usepackage{ebgaramond}
-\definecolor{darkblue}{HTML}{003153}
-
-% ------ HYPERLINKS ------
-
-\usepackage{hyperref}
-\hypersetup{colorlinks=true, linkcolor=darkblue, citecolor=darkblue, filecolor=darkblue, urlcolor=darkblue}
-
-% ------ EPIGRAPH ------
-
-\usepackage{epigraph}
-\renewcommand{\epigraphsize}{\footnotesize}
-\epigraphrule=0pt
-\epigraphwidth=8cm
-
-\usepackage{etoolbox}
-\AtBeginEnvironment{quote}{\itshape}
-\makeatletter
-\newlength\episourceskip
-\pretocmd{\@episource}{\em}{}{}
-\apptocmd{\@episource}{\em}{}{}
-\patchcmd{\epigraph}{\@episource{#1}\\}{\@episource{#1}\\[\episourceskip]}{}{}
-\makeatother
-
+% ------ METADATA ------
+\newcommand{\bookauthor}{Эмиль~Весна}
+\newcommand{\booktitle}{ГУЦИНЬ С~МИЛЛИОНОМ~СТРУН}
+\newcommand{\bookstarted}{неизвестно}
+\newcommand{\bookfinished}{пока нет}
 % ------ METADATA ------
 
-\newcommand{\tofaauthor}{\ml{$0$}{Эмиль~Весна}{Emil~Viesn\'{a}}}
-\newcommand{\tofatitle}{\ml{$0$}{ГУЦИНЬ С МИЛЛИОНОМ СТРУН}{The Million-Stringed Guqin}}
-\newcommand{\tofastarted}{Неизвестно}
+% ----- XELATEX SYMBOL -----
+\usepackage{xltxtra}
+% ----- XELATEX SYMBOL -----
+
+% ----- HYPHENATION -----
+\usepackage{hyphenat}
+% ----- HYPHENATION -----
+
+% ----- GEOMETRY -----
+\usepackage[left=1.5cm,right=1.5cm,top=2cm,bottom=2cm,bindingoffset=0.5cm]{geometry}
+% ----- GEOMETRY -----
+
+% ----- INCLUDE PDF AS PAGES -----
+\usepackage{pdfpages}
+% ----- INCLUDE PDF AS PAGES -----
+
+% ----- DROPPING CAP -----
+\usepackage{type1cm,lettrine}
+% ----- DROPPING CAP -----
+
+% ----- FONTS -----
+\renewcommand{\baselinestretch}{1.2}
+\setmainfont{Linux Libertine}
+% ----- FONTS -----
+
+% ------ HYPERLINKS ------
+\usepackage{hyperref}
+\definecolor{LinkColor}{HTML}{0969DA}
+\hypersetup{colorlinks=true, linkcolor=LinkColor, citecolor=LinkColor, filecolor=LinkColor, urlcolor=LinkColor}
+% ------ HYPERLINKS ------
 
 % ------ FANCY PAGE STYLE ------
-
+\setlength{\headheight}{15pt}
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhead[LE,RO]{\thepage}
-\fancyhead[LO]{{\small\textsc{\tofatitle}}}
-\fancyhead[RE]{{\small\textsc{\tofaauthor}}}
+\fancyhead[LO]{{\small\textsc{\booktitle}}}
+\fancyhead[RE]{{\small\textsc{\bookauthor}}}
 \fancyfoot{}
-\fancypagestyle{plain}
-{\fancyhead{}
-\renewcommand{\headrulewidth}{0mm}
-\fancyfoot{}}
+    \fancypagestyle{plain}{
+    \renewcommand{\headrulewidth}{0mm}
+    \fancyhead{}
+    \fancyfoot{}
+}
+% ------ FANCY PAGE STYLE ------
 
-% ------ NEW COMMANDS ------
-
+% ------ ELEMENTS ------
 \newcommand{\asterism}{\vspace{1em}{\centering\Large\bfseries$\ast~\ast~\ast$\par}\vspace{1em}}
-\newcommand{\textspace}{\vspace{1em}{\centering\Large\bfseries<...>\par}\vspace{1em}}
 \newcommand{\FM}{\footnotemark}
-\newcommand{\FL}[2]{\footnotetext{См. \textit{\hyperlink{#1}{#2}}.}}
 \newcommand{\FA}[1]{\footnotetext{#1 \emph{\ml{$0$}{---~Прим.~авт.}{---~Author.}}}}
-
-\newcommand{\theterm}[3]{\textbf{\hypertarget{#1}{#2}} --- #3}
-\newcommand{\thesynonim}[3]{\textbf{#2} --- см. \textit{\hyperlink{#1}{#3}}.}
-\newcommand{\theorigin}[3]{\textit{#1:} #2 --- #3}
-
+% ------ ELEMENTS ------
 
 \begin{document}
 
+% ----- FRONT COVER -----
+% \includepdf[pages={1}]{\coverfrontfilename}
+% ----- FRONT COVER -----
+
+% ----- EMPTY PAGE -----
+% \newpage\thispagestyle{plain}~
+% ----- EMPTY PAGE -----
+
+% ------ TITLE PAGE ------
+\begin{titlepage}
+{
+\centering
+{~\par}
+\vspace{0.25\textheight}
+{\LARGE\bookauthor\par}
+\vspace{1.3cm}
+{\Huge\textbf{\booktitle}\par}
+\vfill
+{\includegraphics[width=6em]{\publisherlogofilename}\par}
+}
+\end{titlepage}
 % ------ TITLE PAGE ------
 
-\begin{titlepage}
-{\centering{~\par}\vspace{0.25\textheight}
-{\LARGE\tofaauthor}\par
-\vspace{1.0cm}\rule{17em}{1pt}\par\vspace{0.3cm}
-{\Huge\textsc{\tofatitle}\par}
-\vspace{0.3cm}\rule{17em}{2pt}\par\vspace{1.0cm}
-{\Large\textit{\ml{$0$}{~}{~}}\par}
-\vspace{0.5cm}\asterism\par\vspace{1.0cm}
-{\textbf{\ml{$0$}{Начато:}{Started:}}~\tofastarted\par}\vfill
-{\Large\ml{$0$}{Создано~в}{Created~by}~\XeLaTeX}\par}
-\end{titlepage}
+% ----- TRIGGER WARNING -----
+% \newpage\thispagestyle{plain}
+% {~\par}
+% \vfill
+% {\centering\includegraphics[width=4em]{tw.pdf}\par}
+% \vspace{1em}
+% {\centering\Large\strong{\ml{$0$}{Предупреждение}{Content Warning}}\par}
+% \vspace{0.5em}
+% {\centering\large{Данное произведение содержит описание неизлечимых болезней, психических состояний, врачебных манипуляций, упоминания суицида, химических зависимостей, сцены насилия и убийств, мат, а также гомофобную, трансфобную, сексистскую и расистскую лексику.}\par}
+% \vfill
+% {~\par}
+% ----- TRIGGER WARNING -----
 
+% ----- TABLE OF CONTENTS -----
 \tableofcontents
+% ----- TABLE OF CONTENTS -----
 
-\newpage
+\pagestyle{fancy}
+
 
 \section{<<Когда-нибудь тёмною ночью...>>}
 
@@ -366,9 +379,9 @@ You said ``My darling, don't leave me''
 % ххх00(14)
 % ххх00(15)
 % ххх00(14) (2 раза)
-% 
+%
 % Bridge #1.
-% 
+%
 % А5 А6 А7 А8
 
 % А5 	А6
@@ -392,13 +405,13 @@ And forgot all my success and failures.
 % хх0230
 % 3200хх
 % х3201х
-% 
+%
 % Бой на верхних струнах восьмыми:
 % G A4 Em C
-% 
+%
 % Финальный – G снизу вверх.
 \emph{2014?}
-\end{verse} 
+\end{verse}
 \newpage
 
 \section{Hrorek}
@@ -428,7 +441,7 @@ He shall give birth to the greatest conqueror\\
 Who's name's full of glory and sanctity?\\
 % G 	Hm 	F#m
 Could you ever know that your clan will rule \textit{Ostland} (eight hundred years)\\
-% E 	G 
+% E 	G
 All you could know is you dare\\
 % D
 And that is it
@@ -453,7 +466,7 @@ All you could know is you can\\
 And that is it
 
 \emph{2014?}
-\end{verse} 
+\end{verse}
 \newpage
 
 \section{Последний бой}
@@ -488,7 +501,7 @@ And that is it
 Воспоют нас поэты врагов.
 
 \emph{01.07.2015}
-\end{verse} 
+\end{verse}
 \newpage
 
 \section{Дракон, дочь дракона}
@@ -593,7 +606,7 @@ And that is it
 
 Вмиг вспомнил воитель ночные бои:\\
 Со скрежетом вышел из ножен кинжал,\\
-Златым фейерверком сверкнули кремни,\\ 
+Златым фейерверком сверкнули кремни,\\
 И факел смолистый огнём запылал!
 
 Подходят всё ближе, всё ярче блестят\\
@@ -769,7 +782,7 @@ And that is it
 Или топай своей дорогой.
 
 \emph{30 мая 2018}
-\end{verse} 
+\end{verse}
 \newpage
 
 \section{Отголосок зимы}
@@ -862,7 +875,7 @@ And that is it
 То я --- разбитое сердце Джека.
 
 \emph{19 ноября 2019}
-\end{verse} 
+\end{verse}
 \newpage
 
 \section{Тупик}
@@ -894,7 +907,7 @@ And that is it
 Да руки к нему прибиты.
 
 \emph{27 ноября 2019}
-\end{verse} 
+\end{verse}
 \newpage
 
 \section{Тайна}
@@ -929,27 +942,27 @@ And that is it
 А я, словно дух из поверья, \\
 Глаза выдираю из туши, \\
 Чтоб, словно блестящие серьги, \\
-Надеть на усталую душу. 
+Надеть на усталую душу.
 
 Зачем ты расчеловечила \\
 Привычку мою сорочью? \\
 Мой хлеб зачерствеет к вечеру. \\
-Рыданья утихнут к ночи. 
+Рыданья утихнут к ночи.
 
 Как крошка въедается в локоть \\
 Та мысль --- не прогонишь камланием: \\
 Не может для этой жестокости \\
-Верность быть оправданием. 
+Верность быть оправданием.
 
 А значит, всё прожито даром? \\
 Я в утку сапфирами выстрелил? \\
 Купил на сундук с годами \\
-Кусочек дешёвой истины? 
+Кусочек дешёвой истины?
 
 Попытка закончилась крахом \\
 Скрывать это всё под фальшью. \\
 Пошлю тебя лучше на хуй \\
-И жить попытаюсь дальше. 
+И жить попытаюсь дальше.
 
 \emph{29 января 2021}
 \end{verse}
@@ -1053,7 +1066,7 @@ And that is it
 \section{Дождь}
 
 \begin{verse}
- 
+
 % Em D G
 Твой голос, словно листья, подхваченные ветром,\\
 % Em D G
@@ -1135,5 +1148,118 @@ And that is it
 \emph{18 июля 2022}
 
 \end{verse}
+
+\newpage
+\section{Сибирячка}
+
+\begin{verse}
+
+Из леса домры, степей курая,\\
+Путём извилистым изнывая,\\
+Пройдя сквозь ад и желая рая,\\
+Приехал я, и теперь ты рядом.
+
+Лист распускается и опадает,\\
+В депо гремучие спят трамваи,\\
+Но я-то знаю, я точно знаю,\\
+Что рядом ты, что ты где-то рядом.
+
+Горят леса, и Европа тлеет,\\
+Горчит весна, обжигает лето,\\
+С тобой грустим и с тобой болеем,\\
+Но всё же вместе, но всё же рядом.
+
+Столицу смог покрывалом душит,\\
+Повсюду злые глаза и уши,\\
+Я знаю: дальше не будет лучше,\\
+Но рядом ты, и ты будешь рядом.
+
+Пока земля на болотах сонна,\\
+Родник холодный течёт со склона\\
+И гордый конь на щите зелёном,\\
+Я буду рядом, с тобою рядом.
+
+\emph{12 мая 2023}
+
+\end{verse}
+
+% ----- INFO PAGE -----
+\newpage\thispagestyle{plain}
+{\centering
+
+% ----- LICENSE SIGNS BLOCK -----
+\includegraphics[width=2.5em]{cc.pdf}~\includegraphics[width=2.5em]{by.pdf}
+% ----- LICENSE SIGNS BLOCK -----
+
+\vspace{0.2em}
+
+% ----- LICENSE BLOCK -----
+{\ml{$0$}{Данная книга распространяется под лицензией \textbf{CC~BY~4.0}.}{This book is distributed under the \textbf{CC~BY~4.0} license.}\par}
+{\ml{$0$}{Подробнее о лицензии:}{Details:} \href{https://creativecommons.org/licenses/by/4.0/deed.ru}{creativecommons.org/licenses/by/4.0}\par}
+% ----- LICENSE BLOCK -----
+
+\vfill
+
+% ----- AUTHOR AND TITLE -----
+{\large\bookauthor\par}
+\vspace{0.5em}
+{\Large\textbf{\booktitle}\par}
+% ----- AUTHOR AND TITLE -----
+
+\vfill
+
+% ----- BOOK INFO -----
+{\ml{$0$}{Начато:}{Started:} \textit{\bookstarted}\par}
+{\ml{$0$}{Последняя редакция:}{Latest revision:} \textit{\bookfinished}\par}
+{\ml{$0$}{Подробнее о книге:}{The book details:} \href{https://github.com/regnveig/tofa}{github.com/regnveig/tofa}\par}
+% ----- BOOK INFO -----
+
+\vfill
+
+% ----- DOCUMENT INFO -----
+{\ml{$0$}{Дизайн обложки: \textit{Э.\,Весна}}{The cover design by E.\,Viesn\'a}\par}
+{\ml{$0$}{Компьютерная вёрстка: \textit{Э.\,Весна}}{The computer layout by E.\,Viesn\'a}\par}
+{\ml{$0$}{Создано с помощью \XeLaTeX}{Created with \XeLaTeX}\par}
+% ----- DOCUMENT INFO -----
+
+\vspace{0.5em}
+
+% ----- PUBLISHER INFO -----
+{\textbf{\ml{$0$}{Свободное издательство <<Цунами>>}{\textsc{Tsunami}, an independent publisher}}\par}
+{\ml{$0$}{Томск 2023}{Tomsk 2023}\par}
+% ----- PUBLISHER INFO -----
+
+\vfill
+
+% ----- QR CODES -----
+{\hfill
+\begin{minipage}[t]{0.25\textwidth}
+{\centering
+{\includegraphics[width=0.8\textwidth]{qr_github_tofa.pdf}\par}
+\vspace{0.2em}
+{\small{\ml{$0$}{О книге и авторе}{About the book and the author}}\par}
+}
+\end{minipage}
+\hspace{2em}
+\begin{minipage}[t]{0.25\textwidth}
+{\centering
+{\includegraphics[width=0.8\textwidth]{qr_license_by40.pdf}\par}
+\vspace{0.2em}
+{\small{\ml{$0$}{Текст лицензии}{License full text}}\par}
+}
+\end{minipage}
+\hfill}
+% ----- QR CODES -----
+
+% }
+% % ----- INFO PAGE -----
+%
+% % ----- EMPTY PAGE -----
+% \newpage\thispagestyle{plain}~
+% % ----- EMPTY PAGE -----
+%
+% % ----- BACK COVER -----
+% \includepdf[pages={1}]{cover_back.pdf}
+% % ----- BACK COVER -----
 
 \end{document}
