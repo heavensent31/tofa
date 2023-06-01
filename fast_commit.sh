@@ -3,8 +3,9 @@
 # git remote add darktea git@it7otdanqu7ktntxzm427cba6i53w6wlanlh23v5i3siqmos47pzhvyd.onion:regnveig/tofa.git
 # git remote add codeberg git@codeberg.org:regnveig/tofa.git
 
+[ -z "$1" ] && MESSAGE="$( date -Iseconds; )" || MESSAGE="$1"
 git add *
-git commit -a -m "${1}" -Sregnveig@yandex.ru
+git commit -a -m "${MESSAGE}" -Sregnveig@yandex.ru
 git push github
 git push 0xacab
 git push codeberg
