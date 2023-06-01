@@ -14,7 +14,6 @@ Alternative repos:
 * [GitHub](https://github.com/regnveig/tofa)
 * [0xACAB](https://0xacab.org/regnveig/tofa)
 * [Codeberg](https://codeberg.org/regnveig/tofa)
-* [DarkTea](http://it7otdanqu7ktntxzm427cba6i53w6wlanlh23v5i3siqmos47pzhvyd.onion/regnveig/tofa)
 
 ---
 
