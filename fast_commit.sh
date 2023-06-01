@@ -8,4 +8,3 @@ git commit -a -m "${MESSAGE}" -Sregnveig@yandex.ru
 git push github
 git push 0xacab
 git push codeberg
-torify git push darktea
