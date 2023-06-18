@@ -506,17 +506,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="1021.5168"
-     inkscape:cy="336.88587"
+     inkscape:zoom="5.6"
+     inkscape:cx="1121.1607"
+     inkscape:cy="347.85714"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      objecttolerance="1"
      gridtolerance="1"
      guidetolerance="1"
-     inkscape:window-width="1280"
-     inkscape:window-height="951"
+     inkscape:window-width="1366"
+     inkscape:window-height="687"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -940,25 +940,25 @@
        cy="161.49553"
        r="1.0690781" />
     <circle
-       style="opacity:1;fill:#a02c2c;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       style="opacity:1;fill:#ff0000;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
        id="path4623-18"
        cx="-34.017857"
        cy="97.050598"
        r="1.0690781" />
     <circle
-       style="opacity:1;fill:#a02c2c;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       style="opacity:1;fill:#ff0000;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
        id="path4623-7"
        cx="-30.238094"
        cy="105.55506"
        r="1.0690781" />
     <circle
-       style="opacity:1;fill:#a02c2c;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       style="opacity:1;fill:#ff0000;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
        id="path4623-92"
        cx="-24.757441"
        cy="97.239586"
        r="1.0690781" />
     <circle
-       style="opacity:1;fill:#a02c2c;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       style="opacity:1;fill:#ff0000;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
        id="path4623-02"
        cx="-26.269344"
        cy="103.09821"
@@ -1053,15 +1053,20 @@
          style="font-size:2.62521px;fill:#162d50;stroke-width:0.0984453">Кровавая Чаша</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:8.80638px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#6c5d53;fill-opacity:1;stroke:none;stroke-width:0.22016"
-       x="-48.005226"
-       y="113.63112"
-       id="text4627-4-6"><tspan
+       style="font-style:normal;font-weight:normal;font-size:6.3453px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#6c5d53;fill-opacity:1;stroke:none;stroke-width:0.158632"
+       x="-31.674398"
+       y="110.48804"
+       id="text4627-4-6-36-5-7-6-6-8"><tspan
          sodipodi:role="line"
-         id="tspan4625-5-1"
-         x="-48.005226"
-         y="113.63112"
-         style="font-size:5.87092px;fill:#6c5d53;stroke-width:0.22016">Нулл Клин</tspan></text>
+         id="tspan4625-5-1-7-3-0-2-1-7"
+         x="-31.674398"
+         y="110.48804"
+         style="font-size:4.2302px;text-align:center;text-anchor:middle;fill:#6c5d53;stroke-width:0.158632">Яуна Латгалия</tspan><tspan
+         sodipodi:role="line"
+         x="-31.674398"
+         y="118.41967"
+         style="font-size:4.2302px;text-align:center;text-anchor:middle;fill:#6c5d53;stroke-width:0.158632"
+         id="tspan2584">(Юнала)</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:5.00766px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#6c5d53;fill-opacity:1;stroke:none;stroke-width:0.125192"
@@ -1143,7 +1148,7 @@
          id="tspan4625-5-3-3"
          x="-31.180098"
          y="99.701271"
-         style="font-size:1.53318px;fill:#162d50;stroke-width:0.0574943">Цвиток</tspan></text>
+         style="font-size:1.53318px;fill:#162d50;stroke-width:0.0574943">Квитак</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:6.57185px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#6c5d53;fill-opacity:1;stroke:none;stroke-width:0.164296"
@@ -1293,15 +1298,37 @@
          id="tspan1309">(Саухиланд)</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:1.89814px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#162d50;fill-opacity:1;stroke:none;stroke-width:0.0474534"
-       x="48.88802"
-       y="108.93549"
+       style="font-style:normal;font-weight:normal;font-size:1.11486px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#162d50;fill-opacity:1;stroke:none;stroke-width:0.0278714"
+       x="48.26112"
+       y="109.30181"
        id="text4627-4-0-95"><tspan
          sodipodi:role="line"
          id="tspan4625-5-3-0"
-         x="48.88802"
-         y="108.93549"
-         style="font-size:1.26542px;fill:#162d50;stroke-width:0.0474534">Великие озера</tspan></text>
+         x="48.26112"
+         y="109.30181"
+         style="font-size:0.743236px;fill:#162d50;stroke-width:0.0278714">Атцвиела</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.11486px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#162d50;fill-opacity:1;stroke:none;stroke-width:0.0278714"
+       x="54.588573"
+       y="111.21597"
+       id="text4627-4-0-95-35"><tspan
+         sodipodi:role="line"
+         id="tspan4625-5-3-0-62"
+         x="54.588573"
+         y="111.21597"
+         style="font-size:0.743236px;fill:#162d50;stroke-width:0.0278714">Гаргантиг</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.11486px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#162d50;fill-opacity:1;stroke:none;stroke-width:0.0278714"
+       x="54.013222"
+       y="106.76866"
+       id="text4627-4-0-95-3"><tspan
+         sodipodi:role="line"
+         id="tspan4625-5-3-0-6"
+         x="54.013222"
+         y="106.76866"
+         style="font-size:0.743236px;fill:#162d50;stroke-width:0.0278714">Оль</tspan></text>
     <circle
        style="opacity:1;fill:#808080;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
        id="path4623-3-4"
@@ -1335,6 +1362,50 @@
          y="115.22632"
          style="font-size:1.71303px;line-height:69.7%;text-align:center;text-anchor:middle;stroke-width:0.0642387"
          id="tspan5494">Винокурни</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.56955px;line-height:69.7%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0642387"
+       x="-38.14994"
+       y="99.867859"
+       id="text4627-1-3"><tspan
+         sodipodi:role="line"
+         x="-38.14994"
+         y="99.867859"
+         style="font-size:1.71303px;line-height:69.7%;text-align:center;text-anchor:middle;stroke-width:0.0642387"
+         id="tspan5494-7">Слянюмакалнс</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.56955px;line-height:69.7%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0642387"
+       x="-23.394909"
+       y="94.91098"
+       id="text4627-1-3-5"><tspan
+         sodipodi:role="line"
+         x="-23.394909"
+         y="94.91098"
+         style="font-size:1.71303px;line-height:69.7%;text-align:center;text-anchor:middle;stroke-width:0.0642387"
+         id="tspan5494-7-3">Упеспилс</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.56955px;line-height:69.7%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0642387"
+       x="-24.728439"
+       y="106.93603"
+       id="text4627-1-3-5-5"><tspan
+         sodipodi:role="line"
+         x="-24.728439"
+         y="106.93603"
+         style="font-size:1.71303px;line-height:69.7%;text-align:center;text-anchor:middle;stroke-width:0.0642387"
+         id="tspan5494-7-3-6">Балтаупе</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.56955px;line-height:69.7%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0642387"
+       x="-19.91379"
+       y="103.14236"
+       id="text4627-1-3-5-5-2"><tspan
+         sodipodi:role="line"
+         x="-19.91379"
+         y="103.14236"
+         style="font-size:1.71303px;line-height:69.7%;text-align:center;text-anchor:middle;stroke-width:0.0642387"
+         id="tspan5494-7-3-6-9">Вайаводина</tspan></text>
     <path
        style="fill:none;stroke:#ffffff;stroke-width:0.705556;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.352778, 0.352778;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow1Send)"
        d="m -12.260989,112.51721 -5.11153,0.0668"
@@ -1491,11 +1562,11 @@
          y="222.19426"
          style="font-size:1.71303px;stroke-width:0.0642387">Переправы</tspan></text>
     <circle
-       style="opacity:1;fill:#a02c2c;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       style="opacity:1;fill:#ff0000;stroke:#000000;stroke-width:0.160743;stroke-opacity:1"
        id="path4623-1-3"
-       cx="52.032047"
-       cy="106.25507"
-       r="1.0690781" />
+       cx="52.687363"
+       cy="107.36394"
+       r="0.64950007" />
     <circle
        style="opacity:1;fill:#c8ab37;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
        id="path4623-6-6"
@@ -1516,17 +1587,17 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:12.336px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#6c5d53;fill-opacity:1;stroke:none;stroke-width:0.3084"
-       x="-11.613408"
-       y="101.43066"
+       x="-3.7592826"
+       y="103.06303"
        id="text4627-4-35"><tspan
          sodipodi:role="line"
          id="tspan4625-5-62"
-         x="-11.613408"
-         y="101.43066"
-         style="font-size:4.93889px;fill:#6c5d53;stroke-width:0.3084">Герда Викка </tspan><tspan
+         x="-3.7592826"
+         y="103.06303"
+         style="font-size:4.93889px;fill:#6c5d53;stroke-width:0.3084">Гьярда Викка </tspan><tspan
          sodipodi:role="line"
-         x="-11.613408"
-         y="116.85065"
+         x="-3.7592826"
+         y="118.48302"
          style="font-size:4.93889px;fill:#6c5d53;stroke-width:0.3084"
          id="tspan1218">(Волчьи щиты)</tspan></text>
     <text
@@ -1600,6 +1671,17 @@
          x="38.073997"
          y="112.47018"
          style="font-size:1.00341px;stroke-width:0.037628">Хольцхафен</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.50512px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.037628"
+       x="48.311745"
+       y="105.74161"
+       id="text4627-7-7"><tspan
+         sodipodi:role="line"
+         id="tspan4625-53-5"
+         x="48.311745"
+         y="105.74161"
+         style="font-size:1.00341px;stroke-width:0.037628">Ольбрюккен</tspan></text>
     <circle
        style="fill:#ff0000;stroke:#000000;stroke-width:0.155326;stroke-opacity:1"
        id="path4623-36-5"
@@ -2712,17 +2794,6 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:6.3453px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#6c5d53;fill-opacity:1;stroke:none;stroke-width:0.158632"
-       x="-206.30313"
-       y="118.97496"
-       id="text4627-4-6-36-5-7-6-6-8"><tspan
-         sodipodi:role="line"
-         id="tspan4625-5-1-7-3-0-2-1-7"
-         x="-206.30313"
-         y="118.97496"
-         style="font-size:4.2302px;fill:#6c5d53;stroke-width:0.158632">Эмбрион</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:6.3453px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#6c5d53;fill-opacity:1;stroke:none;stroke-width:0.158632"
        x="-237.5583"
        y="119.53858"
        id="text4627-4-6-36-5-7-6-6-8-9"><tspan
@@ -2806,5 +2877,16 @@
          x="-215.76521"
          y="111.34661"
          id="tspan45304">Трещина</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:8.80638px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#6c5d53;fill-opacity:1;stroke:none;stroke-width:0.22016"
+       x="-211.10112"
+       y="118.40709"
+       id="text4627-4-6"><tspan
+         sodipodi:role="line"
+         id="tspan4625-5-1"
+         x="-211.10112"
+         y="118.40709"
+         style="font-size:5.87092px;fill:#6c5d53;stroke-width:0.22016">Нулл Клин</tspan></text>
   </g>
 </svg>
