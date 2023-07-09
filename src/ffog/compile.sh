@@ -1,4 +1,4 @@
-for image in cover_front_ru cover_front_en cover_back;
+for image in cover_front_ru cover_front_en cover_back pic_choice_sticker;
 do {
 	inkscape --export-text-to-path --export-filename=${image}.pdf ${image}.svg;
 } done;
